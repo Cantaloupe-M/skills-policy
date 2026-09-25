@@ -1,0 +1,7 @@
+vendor,beginning_balance,jan_adds,jan_amortization,jan_ending_balance,feb_adds,feb_amortization,feb_ending_balance,mar_adds,mar_amortization,mar_ending_balance,apr_adds,apr_amortization,apr_ending_balance,amortization_months,comments,account_number
+AWS Reserved Compute,4026.03,22772.45,4466.41,22332.07,1497.17,3971.54,19857.7,3615.45,3912.19,19560.96,14576.8,5689.63,28448.13,6,Rollforward batch 1,8100
+Azure Burst Pack,1225.92,22264.08,1957.5,21532.5,9097.21,2552.48,28077.23,0.0,2339.77,25737.46,2922.83,2388.36,26271.93,12,Rollforward batch 2,8100
+GCP Sustained Use Lot,2865.34,20837.26,3950.43,19752.17,1374.96,3521.19,17605.94,12146.26,4958.7,24793.5,14139.21,6488.79,32443.92,6,Rollforward batch 3,8100
+CoreWeave GPU Block,889.59,14870.11,1313.31,14446.39,0.0,1203.87,13242.52,0.0,1103.54,12138.98,0.0,1011.58,11127.4,12,Rollforward batch 4,8100
+Akamai Edge Compute,5993.67,20018.3,4335.33,21676.64,7800.27,4912.82,24564.09,369.25,4155.56,20777.78,0.0,3462.96,17314.82,6,Rollforward batch 5,8100
+OCI Throughput Bundle,5557.54,4131.68,807.44,8881.78,10877.61,1646.62,18112.77,1158.64,1605.95,17665.46,0.0,1472.12,16193.34,12,Rollforward batch 6,8100

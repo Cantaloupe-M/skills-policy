@@ -1,0 +1,210 @@
+VAR=auto CFG=--psm 6
+INVOICE
+
+Date: 2024-03-03
+
+Invoice No: INV-01002
+
+Item Description Qty Price
+Widget A 5 $25.99
+Widget B 10 $15.50
+Service Fee 1 $50.00
+SUBTOTAL: $334.95
+
+TAX: $33.49
+
+TOTAL: $368.44
+
+---
+VAR=auto CFG=--psm 4
+INVOICE
+
+Date: 2024-03-03
+Invoice No: INV-01002
+
+Item Description Qty Price
+Widget A 5 $25.99
+Widget B 10 $15.50
+Service Fee 1 $50.00
+
+SUBTOTAL: $334.95
+TAX: $33.49
+TOTAL: $368.44
+
+---
+VAR=auto CFG=--psm 11
+INVOICE
+
+Date: 2024-03-03
+
+Invoice No: INV-01002
+
+Item Description
+
+Qty Price
+
+Widget A
+
+5
+
+$25.99
+
+10
+
+Widget B
+
+$15.50
+
+Service Fee
+
+1
+
+$50.00
+
+SUBTOTAL: $334.95
+
+TAX: $33.49
+
+TOTAL: $368.44
+
+---
+VAR=sharp CFG=--psm 6
+INVOICE
+
+Date: 2024-03-03
+
+Invoice No: INV-01002
+
+Item Description Qty Price
+Widget A 5 $25.99
+Widget B 10 $15.50
+Service Fee 1 $50.00
+SUBTOTAL: $334.95
+
+TAX: $33.49
+
+TOTAL: $368.44
+
+---
+VAR=sharp CFG=--psm 4
+INVOICE
+
+Date: 2024-03-03
+Invoice No: INV-01002
+
+Item Description Qty Price
+Widget A 5 $25.99
+Widget B 10 $15.50
+Service Fee 1 $50.00
+
+SUBTOTAL: $334.95
+TAX: $33.49
+TOTAL: $368.44
+
+---
+VAR=sharp CFG=--psm 11
+INVOICE
+
+Date: 2024-03-03
+
+Invoice No: INV-01002
+
+Item Description
+
+Qty Price
+
+Widget A
+
+5
+
+$25.99
+
+10
+
+Widget B
+
+$15.50
+
+Service Fee
+
+1
+
+$50.00
+
+SUBTOTAL: $334.95
+
+TAX: $33.49
+
+TOTAL: $368.44
+
+---
+VAR=thresh CFG=--psm 6
+INVOICE
+
+Date: 2024-03-03
+
+Invoice No: INV-01002
+
+Item Description Qty Price
+Widget A 5 $25.99
+Widget B 10 = $15.50
+Service Fee 1 $50.00
+SUBTOTAL: $334.95
+
+TAX: $33.49
+
+TOTAL: $368.44
+
+---
+VAR=thresh CFG=--psm 4
+INVOICE
+
+Date: 2024-03-03
+Invoice No: INV-01002
+
+Item Description Qty Price
+Widget A 5 $25.99
+Widget B 10 = $15.50
+Service Fee 1 $50.00
+
+SUBTOTAL: $334.95
+TAX: $33.49
+TOTAL: $368.44
+
+---
+VAR=thresh CFG=--psm 11
+INVOICE
+
+Date: 2024-03-03
+
+Invoice No: INV-01002
+
+Item Description
+
+Qty Price
+
+Widget A
+
+5
+
+$25.99
+
+10
+
+Widget B
+
+$15.50
+
+Service Fee
+
+1
+
+$50.00
+
+SUBTOTAL: $334.95
+
+TAX: $33.49
+
+TOTAL: $368.44
+
+---

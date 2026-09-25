@@ -1,0 +1,8 @@
+record_status,bucket_code,claim_group,opening_reserve,jun_incurred,jun_paid,jun_close,jul_incurred,jul_paid,jul_close,aug_incurred,aug_paid,aug_close,sep_incurred,sep_paid,sep_close,coverage_months,explanation,gl_code
+active,consumer,Nova Blender,0.0,12000,3000,9000.0,0,3000,6000.0,4000,3500,6500.0,0,3500,3000.0,12,Kitchen line reserve,2440
+active,consumer,Orion Laundry,0.0,0,0,0.0,10000,2500,7500.0,0,2500,5000.0,2000,2500,4500.0,10,Laundry reserve,2440
+active,consumer,Pulse Vacuums,0.0,8000,2000,6000.0,0,2000,4000.0,0,2000,2000.0,0,2000,0.0,8,Vacuum launch reserve,2440
+active,commercial,Atlas HVAC,0.0,20000,4000,16000.0,5000,4500,16500.0,0,4500,12000.0,0,4500,7500.0,12,HVAC contractor reserve,2445
+active,commercial,Beacon Cooling,0.0,0,0,0.0,18000,6000,12000.0,0,6000,6000.0,0,6000,0.0,6,Summer install reserve,2445
+active,commercial,Crest Boilers,0.0,10000,2500,7500.0,0,2500,5000.0,3000,2750,5250.0,0,2750,2500.0,9,Boiler retrofit reserve,2445
+archived,consumer,Ignore Placeholder,0,999,999,0,0,0,0,0,0,0,0,0,0,1,Ignore archived data,2440

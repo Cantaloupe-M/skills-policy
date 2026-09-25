@@ -1,0 +1,12 @@
+campaign_id,revision,state,active_clinics
+VAX-ALPHA,1,approved,15
+VAX-ALPHA,2,approved,17
+VAX-BETA,1,approved,12
+VAX-DELTA,1,approved,
+VAX-DELTA,2,approved,10
+VAX-EPS,,approved,18
+VAX-EPS,2,approved,19
+VAX-GAMMA,1,draft,13
+VAX-GAMMA,2,approved,14
+VAX-ZETA,1,rejected,8
+VAX-HOLD,1,approved,99

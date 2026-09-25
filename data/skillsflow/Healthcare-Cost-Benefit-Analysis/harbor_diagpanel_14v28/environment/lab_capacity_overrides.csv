@@ -1,0 +1,12 @@
+panel_code,rev,approval,active_labs
+DP-ALPHA,1,approved,16
+DP-ALPHA,2,approved,17
+DP-BETA,1,approved,13
+DP-DELTA,1,approved,
+DP-DELTA,2,approved,10
+DP-EPS,,approved,10
+DP-EPS,2,approved,11
+DP-GAMMA,1,draft,9
+DP-GAMMA,2,approved,9
+DP-ZETA,1,rejected,8
+DP-HOLD,1,approved,99

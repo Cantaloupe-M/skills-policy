@@ -1,0 +1,21 @@
+version = "1.0"
+
+[metadata]
+author_name = "GPT-5.4"
+author_email = "gpt54@example.com"
+difficulty = "medium"
+category = "financial-analysis"
+tags = ["diagnostics", "json", "csv", "template-update", "decision-analysis"]
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 4096
+storage_mb = 10240
+docker_image = "harbor-prebuilt:task-33c7cb0c892c3b04"

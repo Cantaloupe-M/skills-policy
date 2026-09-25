@@ -1,0 +1,73 @@
+{
+  "input_file": "Storm-Damage-Survey.pptx",
+  "output_file": "Storm-Damage-Survey_cleaned.pptx",
+  "summary_mode": "replace_existing",
+  "summary_title": "Inspection Index",
+  "summary_slide_number": 7,
+  "output_slide_count": 7,
+  "style": {
+    "font": "Arial",
+    "size": 1400,
+    "color": "5B6776",
+    "bold": false,
+    "italic": false
+  },
+  "slides": [
+    {
+      "slide_number": 2,
+      "caption_raw": "Pier 4 East Face",
+      "caption_clean": "Pier 4 - East Face",
+      "container_mode": "group",
+      "preserve_texts": [
+        "Zone A",
+        "Inspector note: Fender bolts flagged"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "caption_raw": "South Pump Station",
+      "caption_clean": "South Pump Station",
+      "preserve_texts": [
+        "Severity: Moderate"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "caption_raw": "East Face - Pier 4",
+      "caption_clean": "Pier 4 - East Face",
+      "container_mode": "group",
+      "preserve_texts": [
+        "Zone A",
+        "Inspector note: Repeat view after tide drop"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "caption_raw": "Substation 2 Roof Hatch",
+      "caption_clean": "Substation 2 - Roof Hatch",
+      "preserve_texts": [
+        "Severity: High"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "caption_raw": "North Seawall Joint",
+      "caption_clean": "North Seawall - Expansion Joint",
+      "container_mode": "group",
+      "preserve_texts": [
+        "Zone C",
+        "Inspector note: Sealant washout visible"
+      ]
+    }
+  ],
+  "alias_map_file": "survey_caption_alignment.csv",
+  "alias_fields": {
+    "raw": "reported_name",
+    "canonical": "normalized_site",
+    "status": "record_status"
+  },
+  "alias_ignore_status_values": [
+    "ignore",
+    "retired"
+  ]
+}

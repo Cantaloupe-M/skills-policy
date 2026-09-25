@@ -1,0 +1,214 @@
+{
+  "exports": [
+    {
+      "source_bucket": "sub_live",
+      "clusters": [
+        {
+          "cluster_name": "Core Subscriptions",
+          "records": [
+            {
+              "contract_key": "SUB-001",
+              "revision_no": 1,
+              "active_flag": true,
+              "record_type": "detail",
+              "party_name": "Aurora Transit",
+              "opening_amount": 0,
+              "month_roll": {
+                "sep": {
+                  "booked": 18000,
+                  "earned": 4500
+                },
+                "oct": {
+                  "earned": 4500
+                },
+                "nov": {
+                  "booked": 5000,
+                  "earned": 5000
+                },
+                "dec": {
+                  "earned": 5000
+                }
+              },
+              "term_hint": 12,
+              "memo_label": "Superseded subscription",
+              "acct": 2350
+            },
+            {
+              "contract_key": "SUB-001",
+              "revision_no": 2,
+              "active_flag": true,
+              "record_type": "detail",
+              "party_name": "Aurora Transit",
+              "opening_amount": 0,
+              "month_roll": {
+                "sep": {
+                  "booked": 20000,
+                  "earned": 5000
+                },
+                "oct": {
+                  "earned": 5000
+                },
+                "nov": {
+                  "booked": 5000,
+                  "earned": 5000
+                },
+                "dec": {
+                  "earned": 5000
+                }
+              },
+              "term_hint": 12,
+              "memo_label": "Enterprise transit subscription",
+              "acct": 2350
+            },
+            {
+              "contract_key": "SUB-010",
+              "revision_no": 1,
+              "active_flag": true,
+              "record_type": "detail",
+              "party_name": "Beacon Fleet",
+              "opening_amount": 0,
+              "month_roll": {
+                "oct": {
+                  "booked": 16000,
+                  "earned": 4000
+                },
+                "nov": {
+                  "earned": 4000
+                },
+                "dec": {
+                  "earned": 4000
+                }
+              },
+              "term_hint": 8,
+              "memo_label": "Fleet onboarding subscription",
+              "acct": 2350
+            },
+            {
+              "contract_key": "SUB-020",
+              "revision_no": 1,
+              "active_flag": true,
+              "record_type": "detail",
+              "party_name": "Comet Riders",
+              "opening_amount": 0,
+              "month_roll": {
+                "sep": {
+                  "booked": 8000,
+                  "earned": 2000
+                },
+                "oct": {
+                  "earned": 2000
+                },
+                "nov": {
+                  "earned": 2000
+                },
+                "dec": {
+                  "earned": 2000
+                }
+              },
+              "term_hint": 6,
+              "memo_label": "Draft riders renewal",
+              "acct": 2350
+            },
+            {
+              "contract_key": "SUB-X",
+              "revision_no": 1,
+              "active_flag": true,
+              "record_type": "summary",
+              "party_name": "Ignore Summary",
+              "opening_amount": 0,
+              "month_roll": {
+                "sep": {
+                  "booked": 1,
+                  "earned": 1
+                }
+              },
+              "term_hint": 1,
+              "memo_label": "Ignore summary row",
+              "acct": 2350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_bucket": "svc_live",
+      "clusters": [
+        {
+          "cluster_name": "Professional Services",
+          "records": [
+            {
+              "contract_key": "SVC-100",
+              "revision_no": 1,
+              "active_flag": true,
+              "record_type": "detail",
+              "party_name": "Delta Install",
+              "opening_amount": 0,
+              "month_roll": {
+                "sep": {
+                  "booked": 12000,
+                  "earned": 3000
+                },
+                "oct": {
+                  "earned": 3000
+                },
+                "nov": {
+                  "earned": 3000
+                },
+                "dec": {
+                  "earned": 3000
+                }
+              },
+              "term_hint": 4,
+              "memo_label": "Implementation package",
+              "acct": 2355
+            },
+            {
+              "contract_key": "SVC-200",
+              "revision_no": 1,
+              "active_flag": false,
+              "record_type": "detail",
+              "party_name": "Old Training",
+              "opening_amount": 0,
+              "month_roll": {
+                "oct": {
+                  "booked": 1000,
+                  "earned": 1000
+                }
+              },
+              "term_hint": 1,
+              "memo_label": "Ignore inactive",
+              "acct": 2355
+            },
+            {
+              "contract_key": "SVC-300",
+              "revision_no": 1,
+              "active_flag": true,
+              "record_type": "detail",
+              "party_name": "Focal Support",
+              "opening_amount": 0,
+              "month_roll": {
+                "sep": {
+                  "booked": 4000,
+                  "earned": 1000
+                },
+                "oct": {
+                  "earned": 1000
+                },
+                "nov": {
+                  "booked": 2000,
+                  "earned": 1500
+                },
+                "dec": {
+                  "earned": 1500
+                }
+              },
+              "term_hint": 6,
+              "memo_label": "Premium support bundle",
+              "acct": 2355
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "report_date": "TBD",
+  "sections": [
+    {
+      "section_id": "fund_snapshots",
+      "items": [
+        {
+          "fund_query": "renaissance technologies",
+          "aum": 0,
+          "stock_holdings": 0
+        },
+        {
+          "fund_query": "scion asset management",
+          "aum": 0,
+          "stock_holdings": 0
+        }
+      ]
+    },
+    {
+      "section_id": "issuer_leaders",
+      "items": [
+        {
+          "issuer_query": "palantir",
+          "top_manager": ""
+        },
+        {
+          "issuer_query": "meta platforms",
+          "top_manager": ""
+        }
+      ]
+    },
+    {
+      "section_id": "change_checks",
+      "items": [
+        {
+          "fund_query": "bridgewater associates",
+          "largest_buy_cusip": "",
+          "largest_sell_cusip": ""
+        },
+        {
+          "fund_query": "third point",
+          "largest_buy_cusip": "",
+          "largest_sell_cusip": ""
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "legacy placeholder should remain untouched"
+  ]
+}

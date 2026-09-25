@@ -1,0 +1,6 @@
+{
+  "target_embedding": "Microsoft_Excel_Worksheet.xlsx",
+  "target_sheet": "Region Factors",
+  "matrix_title": "Approved Adjustment Matrix",
+  "alias_map": "/root/label_aliases.csv"
+}

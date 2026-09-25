@@ -1,0 +1,36 @@
+{
+  "manager_issuer_grid": [
+    {
+      "fund_query": "bridgewater associates",
+      "quarter": "2025-q3",
+      "issuer_queries": [
+        {
+          "issuer_query": "amazon",
+          "cusip": "023135106",
+          "value": 247011200.0
+        },
+        {
+          "issuer_query": "palantir",
+          "cusip": "69608A108",
+          "value": 19579686.0
+        }
+      ]
+    },
+    {
+      "fund_query": "third point",
+      "quarter": "2025-q3",
+      "issuer_queries": [
+        {
+          "issuer_query": "amazon",
+          "cusip": "023135106",
+          "value": 616991700.0
+        },
+        {
+          "issuer_query": "palantir",
+          "cusip": "69608A108",
+          "value": 0.0
+        }
+      ]
+    }
+  ]
+}

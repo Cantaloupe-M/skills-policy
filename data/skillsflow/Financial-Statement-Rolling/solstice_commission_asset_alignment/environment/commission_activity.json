@@ -1,0 +1,210 @@
+{
+  "sections": [
+    {
+      "sheet_code": "field",
+      "rows": [
+        {
+          "line_key": "FC-100",
+          "eligible": true,
+          "payee_name": "Apex Sellers",
+          "opening_amount": 0.0,
+          "activity": {
+            "jul": {
+              "capitalized": 15000,
+              "amortized": 3000,
+              "ending_balance": 12000.0
+            },
+            "aug": {
+              "capitalized": 0,
+              "amortized": 3000,
+              "ending_balance": 9000.0
+            },
+            "sep": {
+              "capitalized": 3000,
+              "amortized": 3000,
+              "ending_balance": 9000.0
+            },
+            "oct": {
+              "capitalized": 0,
+              "amortized": 3000,
+              "ending_balance": 6000.0
+            }
+          }
+        },
+        {
+          "line_key": "FC-110",
+          "eligible": true,
+          "payee_name": "Bright Route",
+          "opening_amount": 0.0,
+          "activity": {
+            "jul": {
+              "capitalized": 0,
+              "amortized": 0,
+              "ending_balance": 0.0
+            },
+            "aug": {
+              "capitalized": 12000,
+              "amortized": 3000,
+              "ending_balance": 9000.0
+            },
+            "sep": {
+              "capitalized": 0,
+              "amortized": 3000,
+              "ending_balance": 6000.0
+            },
+            "oct": {
+              "capitalized": 0,
+              "amortized": 3000,
+              "ending_balance": 3000.0
+            }
+          }
+        },
+        {
+          "line_key": "FC-120",
+          "eligible": true,
+          "payee_name": "Cedar Mobility",
+          "opening_amount": 0.0,
+          "activity": {
+            "jul": {
+              "capitalized": 9000,
+              "amortized": 2250,
+              "ending_balance": 6750.0
+            },
+            "aug": {
+              "capitalized": 0,
+              "amortized": 2250,
+              "ending_balance": 4500.0
+            },
+            "sep": {
+              "capitalized": 0,
+              "amortized": 2250,
+              "ending_balance": 2250.0
+            },
+            "oct": {
+              "capitalized": 3000,
+              "amortized": 2250,
+              "ending_balance": 3000.0
+            }
+          }
+        },
+        {
+          "line_key": "FC-ZZ",
+          "eligible": false,
+          "payee_name": "Ignore Ineligible",
+          "opening_amount": 0.0,
+          "activity": {
+            "jul": {
+              "capitalized": 15000,
+              "amortized": 3000,
+              "ending_balance": 12000.0
+            },
+            "aug": {
+              "capitalized": 0,
+              "amortized": 3000,
+              "ending_balance": 9000.0
+            },
+            "sep": {
+              "capitalized": 3000,
+              "amortized": 3000,
+              "ending_balance": 9000.0
+            },
+            "oct": {
+              "capitalized": 0,
+              "amortized": 3000,
+              "ending_balance": 6000.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sheet_code": "partner",
+      "rows": [
+        {
+          "line_key": "PC-200",
+          "eligible": true,
+          "payee_name": "Delta Alliances",
+          "opening_amount": 0.0,
+          "activity": {
+            "jul": {
+              "capitalized": 18000,
+              "amortized": 3000,
+              "ending_balance": 15000.0
+            },
+            "aug": {
+              "capitalized": 0,
+              "amortized": 3000,
+              "ending_balance": 12000.0
+            },
+            "sep": {
+              "capitalized": 0,
+              "amortized": 3000,
+              "ending_balance": 9000.0
+            },
+            "oct": {
+              "capitalized": 0,
+              "amortized": 3000,
+              "ending_balance": 6000.0
+            }
+          }
+        },
+        {
+          "line_key": "PC-210",
+          "eligible": true,
+          "payee_name": "Ember VAR",
+          "opening_amount": 0.0,
+          "activity": {
+            "jul": {
+              "capitalized": 0,
+              "amortized": 0,
+              "ending_balance": 0.0
+            },
+            "aug": {
+              "capitalized": 9000,
+              "amortized": 2250,
+              "ending_balance": 6750.0
+            },
+            "sep": {
+              "capitalized": 0,
+              "amortized": 2250,
+              "ending_balance": 4500.0
+            },
+            "oct": {
+              "capitalized": 0,
+              "amortized": 2250,
+              "ending_balance": 2250.0
+            }
+          }
+        },
+        {
+          "line_key": "PC-220",
+          "eligible": true,
+          "payee_name": "Focal OEM",
+          "opening_amount": 0.0,
+          "activity": {
+            "jul": {
+              "capitalized": 6000,
+              "amortized": 1000,
+              "ending_balance": 5000.0
+            },
+            "aug": {
+              "capitalized": 0,
+              "amortized": 1000,
+              "ending_balance": 4000.0
+            },
+            "sep": {
+              "capitalized": 4000,
+              "amortized": 1500,
+              "ending_balance": 6500.0
+            },
+            "oct": {
+              "capitalized": 0,
+              "amortized": 1500,
+              "ending_balance": 5000.0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

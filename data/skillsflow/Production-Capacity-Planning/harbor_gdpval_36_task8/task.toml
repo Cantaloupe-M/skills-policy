@@ -1,0 +1,21 @@
+version = "1.0"
+
+[metadata]
+author_name = "Codex"
+author_email = "codex@openai.com"
+difficulty = "medium"
+category = "manufacturing-planning"
+tags = ["json", "xlsx", "operations", "capacity-planning", "chemical", "backlog"]
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 4096
+storage_mb = 10240
+docker_image = "harbor-prebuilt:task-625e4ab37c1a6520"

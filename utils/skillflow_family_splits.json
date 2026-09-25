@@ -1,0 +1,246 @@
+{
+  "families": {
+    "Compensation-Scenario-Modeling": {
+      "train_tasks": [
+        "01_orchestra_foundation_model",
+        "02_orchestra_archive_refresh_model",
+        "03_university_faculty_model",
+        "04_university_termload_refresh_model",
+        "05_property_management_model",
+        "06_property_portfolio_refresh_model"
+      ],
+      "test_tasks": [
+        "07_airline_crew_model",
+        "08_construction_union_model"
+      ]
+    },
+    "Cross-Format-Data-Reconciliation": {
+      "train_tasks": [
+        "01-cloud-service-portfolio-diff",
+        "02-hospital-capacity-portfolio-diff",
+        "03-retail-supply-category-diff",
+        "04-university-program-funding-diff",
+        "05-datacenter-hardware-registry-diff",
+        "06-hospital-medication-reconciliation"
+      ],
+      "test_tasks": [
+        "07-shipping-container-manifest-diff",
+        "08-university-course-catalog-diff"
+      ]
+    },
+    "DMAIC-Quality-Analysis": {
+      "train_tasks": [
+        "harbor_soc_alert_analyze_01",
+        "harbor_hospital_lab_analyze_02",
+        "harbor_field_service_analyze_03",
+        "harbor_university_it_analyze_04",
+        "harbor_gdpval_35",
+        "harbor_hospital_safety_01",
+        "harbor_devops_pipeline_02"
+      ],
+      "test_tasks": [
+        "harbor_logistics_chain_03",
+        "harbor_gdpval_37"
+      ]
+    },
+    "Distribution-Center-Auditing": {
+      "train_tasks": [
+        "harbor_receiving_exception_audit",
+        "harbor_trailer_detention_audit",
+        "harbor_promo_register_audit",
+        "harbor_service_queue_sla_audit",
+        "harbor_timesheet_policy_audit",
+        "harbor_returns_disposition_audit"
+      ],
+      "test_tasks": [
+        "harbor_outbound_manifest_audit",
+        "harbor_cycle_count_variance_audit"
+      ]
+    },
+    "Document-Fraud-Detection": {
+      "train_tasks": [
+        "travel-expense-screening",
+        "speaker-honorarium-review",
+        "clinic-shift-claim-review",
+        "field-service-workorder-audit",
+        "fleet-maintenance-chargeback-audit",
+        "research-stipend-reconciliation"
+      ],
+      "test_tasks": [
+        "warehouse-coldchain-charge-review",
+        "clinical-trial-participant-release-audit"
+      ]
+    },
+    "Embedded-Data-Repair": {
+      "train_tasks": [
+        "fx-spot-matrix-refresh",
+        "fx-cross-rate-inverse-fix",
+        "warehouse-slot-factor-refresh",
+        "supplier-pack-matrix-refresh",
+        "catalyst-balance-matrix-sync",
+        "buffer-dilution-matrix-repair"
+      ],
+      "test_tasks": [
+        "rebate-band-live-embedding-fix",
+        "emission-zone-dual-matrix-repair"
+      ]
+    },
+    "Financial-Statement-Rolling": {
+      "train_tasks": [
+        "lattice_deferred_revenue_rollforward",
+        "cedar_accrual_rollforward",
+        "northstar_warranty_reserve_consolidation",
+        "solstice_commission_asset_alignment",
+        "orchid_project_cost_rollforward",
+        "peregrine_rebate_template_update"
+      ],
+      "test_tasks": [
+        "atlas_refund_reserve_template_merge",
+        "meridian_contract_liability_orchestration"
+      ]
+    },
+    "HWPX-Document-Automation": {
+      "train_tasks": [
+        "hwpx-supplier-contact-sheet",
+        "hwpx-event-announcement",
+        "hwpx-clinic-intake-summary",
+        "hwpx-project-proposal",
+        "hwpx-training-feedback",
+        "hwpx-safety-audit-brief"
+      ],
+      "test_tasks": [
+        "hwpx-renewal-playbook-update",
+        "hwpx-inventory-report"
+      ]
+    },
+    "Healthcare-Cost-Benefit-Analysis": {
+      "train_tasks": [
+        "harbor_cyclemargin_30v90",
+        "harbor_gdpval_42",
+        "harbor_syncpack_28v56",
+        "harbor_mailerfill_45v90",
+        "harbor_infusionbatch_7v14",
+        "harbor_oncocooler_10v20",
+        "harbor_reagentkit_bulk"
+      ],
+      "test_tasks": [
+        "harbor_vaxcrate_6v12",
+        "harbor_diagpanel_14v28"
+      ]
+    },
+    "Industry-Correlation-Analysis": {
+      "train_tasks": [
+        "econ-service-hospitality-correlation",
+        "econ-equipment-software-correlation",
+        "econ-broadcasting-advertising-correlation",
+        "econ-housing-materials-correlation",
+        "econ-utilities-telecom-correlation",
+        "econ-logistics-warehousing-correlation"
+      ],
+      "test_tasks": [
+        "econ-wholesale-packaging-correlation",
+        "econ-coldchain-lastmile-correlation"
+      ]
+    },
+    "Inventory-&-Finance-Integration": {
+      "train_tasks": [
+        "harbor_gdpval_21",
+        "new_task_9_hospital_staffing_resilience",
+        "new_task_10_maintenance_calcfields_restock",
+        "new_task_9_datacenter_capacity_rollforward",
+        "new_task_10_transit_subsidy_rollforward",
+        "new_task_11_media_rights_rollforward"
+      ],
+      "test_tasks": [
+        "new_task_12_mealkit_freshness_replenishment",
+        "new_task_11_datacenter_stochastic_refills"
+      ]
+    },
+    "Medical-Data-Standardization": {
+      "train_tasks": [
+        "electrolyte-rounding-harmonization",
+        "hepatic-panel-harmonization",
+        "thyroid-monitoring-harmonization",
+        "cardio-panel-template-harmonization",
+        "oncology-followup-dedup-harmonization",
+        "icu-metabolic-harmonization",
+        "respiratory-panel-json-harmonization"
+      ],
+      "test_tasks": [
+        "transplant-panel-alignment-harmonization",
+        "neonatal-sepsis-harmonization"
+      ]
+    },
+    "OCR-Data-Extraction": {
+      "train_tasks": [
+        "task_family_pharmacy_labels",
+        "task_family_ecommerce_orders",
+        "task_family_travel_claim_merge",
+        "task_family_invoice_images",
+        "task_family_utility_bills_template_update",
+        "task_family_construction_measurement"
+      ],
+      "test_tasks": [
+        "task_family_nested_fuel_packets",
+        "task_family_case_settlement_packets"
+      ]
+    },
+    "Operational-Recovery-Planning": {
+      "train_tasks": [
+        "new_task_1_soc_alert_recovery",
+        "new_task_2_radiology_reading_backlog",
+        "harbor_gdpval_36",
+        "new_task_3_returns_center_throughput",
+        "harbor_dc_recovery_01",
+        "harbor_wh_recovery_02"
+      ],
+      "test_tasks": [
+        "harbor_ag_recovery_03",
+        "harbor_gdpval_41"
+      ]
+    },
+    "PPT-Formatting-Optimization": {
+      "train_tasks": [
+        "museum-exhibit-caption-cleanup",
+        "wildlife-field-guide-caption-cleanup",
+        "coastal-trail-caption-cleanup",
+        "property-portfolio-caption-cleanup",
+        "transit-platform-caption-cleanup",
+        "incident-briefing-caption-cleanup"
+      ],
+      "test_tasks": [
+        "archive-photo-caption-cleanup",
+        "storm-damage-caption-cleanup"
+      ]
+    },
+    "Production-Capacity-Planning": {
+      "train_tasks": [
+        "harbor_gdpval_36_task1",
+        "harbor_gdpval_36",
+        "harbor_gdpval_36_task2",
+        "harbor_gdpval_36_task5",
+        "harbor_gdpval_36_task3",
+        "harbor_gdpval_36_task4",
+        "harbor_gdpval_36_task6"
+      ],
+      "test_tasks": [
+        "harbor_gdpval_36_task7",
+        "harbor_gdpval_36_task8"
+      ]
+    },
+    "SEC-13F-Financial-Analysis": {
+      "train_tasks": [
+        "fund-snapshot-canonical",
+        "fund-class-breakdown",
+        "fund-shift-screen",
+        "issuer-ownership-rollup",
+        "manager-pair-issuer-grid",
+        "cross-quarter-reconciliation"
+      ],
+      "test_tasks": [
+        "deduped-alert-pack",
+        "existing-brief-refresh"
+      ]
+    }
+  }
+}

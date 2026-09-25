@@ -1,0 +1,349 @@
+{
+  "accounts": [
+    {
+      "sheet_name": "Cap Impl #1460",
+      "groups": [
+        {
+          "portfolio": "ERP",
+          "items": [
+            {
+              "row_id": "PC-101",
+              "revision": 1,
+              "active": true,
+              "vendor_name": "Aether Consulting",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 20000,
+                  "release": 2500,
+                  "ending_balance": 17500
+                },
+                "jul": {
+                  "adds": 0,
+                  "release": 2500,
+                  "ending_balance": 15000
+                },
+                "aug": {
+                  "adds": 0,
+                  "release": 2500,
+                  "ending_balance": 12500
+                },
+                "sep": {
+                  "adds": 0,
+                  "release": 2500,
+                  "ending_balance": 10000
+                }
+              },
+              "useful_life_months": 8,
+              "memo": "Superseded revision",
+              "source_account": 1460
+            },
+            {
+              "row_id": "PC-101",
+              "revision": 2,
+              "active": true,
+              "vendor_name": "Aether Consulting",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 22000,
+                  "release": 2750,
+                  "ending_balance": 19250
+                },
+                "jul": {
+                  "adds": 0,
+                  "release": 2750,
+                  "ending_balance": 16500
+                },
+                "aug": {
+                  "adds": 0,
+                  "release": 2750,
+                  "ending_balance": 13750
+                },
+                "sep": {
+                  "adds": 0,
+                  "release": 2750,
+                  "ending_balance": 11000
+                }
+              },
+              "useful_life_months": 8,
+              "memo": "ERP implementation wave 2",
+              "source_account": 1460
+            },
+            {
+              "row_id": "PC-104",
+              "revision": 1,
+              "active": true,
+              "vendor_name": "Beacon QA",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 0,
+                  "release": 0,
+                  "ending_balance": 0
+                },
+                "jul": {
+                  "adds": 12000,
+                  "release": 3000,
+                  "ending_balance": 9000
+                },
+                "aug": {
+                  "adds": 0,
+                  "release": 3000,
+                  "ending_balance": 6000
+                },
+                "sep": {
+                  "adds": 0,
+                  "release": 3000,
+                  "ending_balance": 3000
+                }
+              },
+              "useful_life_months": 4,
+              "memo": "Base QA expansion",
+              "source_account": 1460
+            }
+          ]
+        },
+        {
+          "portfolio": "Data",
+          "items": [
+            {
+              "row_id": "PC-110",
+              "revision": 2,
+              "active": false,
+              "vendor_name": "Cinder Data",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 14000,
+                  "release": 1750,
+                  "ending_balance": 12250
+                },
+                "jul": {
+                  "adds": 3000,
+                  "release": 2250,
+                  "ending_balance": 13000
+                },
+                "aug": {
+                  "adds": 0,
+                  "release": 2250,
+                  "ending_balance": 10750
+                },
+                "sep": {
+                  "adds": 0,
+                  "release": 2250,
+                  "ending_balance": 8500
+                }
+              },
+              "useful_life_months": 8,
+              "memo": "Ignore inactive revision",
+              "source_account": 1460
+            },
+            {
+              "row_id": "PC-110",
+              "revision": 3,
+              "active": true,
+              "vendor_name": "Cinder Data",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 15000,
+                  "release": 1875,
+                  "ending_balance": 13125
+                },
+                "jul": {
+                  "adds": 3000,
+                  "release": 2250,
+                  "ending_balance": 13875
+                },
+                "aug": {
+                  "adds": 0,
+                  "release": 2250,
+                  "ending_balance": 11625
+                },
+                "sep": {
+                  "adds": 0,
+                  "release": 2250,
+                  "ending_balance": 9375
+                }
+              },
+              "useful_life_months": 8,
+              "memo": "Pending change order",
+              "source_account": 1460
+            },
+            {
+              "row_id": "PC-118",
+              "revision": 1,
+              "active": true,
+              "vendor_name": "Delta Mapping",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 0,
+                  "release": 0,
+                  "ending_balance": 0
+                },
+                "jul": {
+                  "adds": 0,
+                  "release": 0,
+                  "ending_balance": 0
+                },
+                "aug": {
+                  "adds": 10000,
+                  "release": 2500,
+                  "ending_balance": 7500
+                },
+                "sep": {
+                  "adds": 0,
+                  "release": 2500,
+                  "ending_balance": 5000
+                }
+              },
+              "useful_life_months": 4,
+              "memo": "Warehouse mapping",
+              "source_account": 1460
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sheet_name": "Leasehold #1465",
+      "groups": [
+        {
+          "portfolio": "Facilities",
+          "items": [
+            {
+              "row_id": "LH-201",
+              "revision": 1,
+              "active": true,
+              "vendor_name": "East Wing Buildout",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 18000,
+                  "release": 1500,
+                  "ending_balance": 16500
+                },
+                "jul": {
+                  "adds": 0,
+                  "release": 1500,
+                  "ending_balance": 15000
+                },
+                "aug": {
+                  "adds": 0,
+                  "release": 1500,
+                  "ending_balance": 13500
+                },
+                "sep": {
+                  "adds": 0,
+                  "release": 1500,
+                  "ending_balance": 12000
+                }
+              },
+              "useful_life_months": 12,
+              "memo": "HQ expansion",
+              "source_account": 1465
+            },
+            {
+              "row_id": "LH-207",
+              "revision": 1,
+              "active": true,
+              "vendor_name": "Fiber Cabling",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 0,
+                  "release": 0,
+                  "ending_balance": 0
+                },
+                "jul": {
+                  "adds": 8000,
+                  "release": 1000,
+                  "ending_balance": 7000
+                },
+                "aug": {
+                  "adds": 0,
+                  "release": 1000,
+                  "ending_balance": 6000
+                },
+                "sep": {
+                  "adds": 4000,
+                  "release": 1500,
+                  "ending_balance": 8500
+                }
+              },
+              "useful_life_months": 8,
+              "memo": "Network upgrades",
+              "source_account": 1465
+            },
+            {
+              "row_id": "LH-214",
+              "revision": 0,
+              "active": false,
+              "vendor_name": "Lobby Signage",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 0,
+                  "release": 0,
+                  "ending_balance": 0
+                },
+                "jul": {
+                  "adds": 0,
+                  "release": 0,
+                  "ending_balance": 0
+                },
+                "aug": {
+                  "adds": 5000,
+                  "release": 625,
+                  "ending_balance": 4375
+                },
+                "sep": {
+                  "adds": 0,
+                  "release": 625,
+                  "ending_balance": 3750
+                }
+              },
+              "useful_life_months": 8,
+              "memo": "Inactive placeholder",
+              "source_account": 1465
+            },
+            {
+              "row_id": "LH-214",
+              "revision": 1,
+              "active": true,
+              "vendor_name": "Lobby Signage",
+              "opening_balance": 0,
+              "months": {
+                "jun": {
+                  "adds": 0,
+                  "release": 0,
+                  "ending_balance": 0
+                },
+                "jul": {
+                  "adds": 0,
+                  "release": 0,
+                  "ending_balance": 0
+                },
+                "aug": {
+                  "adds": 6000,
+                  "release": 750,
+                  "ending_balance": 5250
+                },
+                "sep": {
+                  "adds": 0,
+                  "release": 750,
+                  "ending_balance": 4500
+                }
+              },
+              "useful_life_months": 8,
+              "memo": "Brand refresh",
+              "source_account": 1465
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

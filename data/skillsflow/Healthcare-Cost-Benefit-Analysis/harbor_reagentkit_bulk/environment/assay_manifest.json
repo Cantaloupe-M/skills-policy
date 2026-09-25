@@ -1,0 +1,111 @@
+{
+  "regions": [
+    {
+      "region": "central",
+      "assays": [
+        {
+          "assay_id": "CHEM-ION",
+          "assay_name": "Ion Balance Panel",
+          "aliases": [
+            "ION BAL PANEL",
+            "Ion Panel"
+          ],
+          "reagent_price_per_1000_tests_usd": 86.4,
+          "carrier_type": "ambient_small",
+          "tests_per_lab_per_run_small": 42,
+          "tests_per_lab_per_run_bulk": 84,
+          "default_active_labs": 12,
+          "in_scope": true
+        },
+        {
+          "assay_id": "CHEM-LIVER",
+          "assay_name": "Liver Stability Panel",
+          "aliases": [
+            "Liver Stable",
+            "LIVER PANEL"
+          ],
+          "reagent_price_per_1000_tests_usd": 92.1,
+          "carrier_type": "cold_chain",
+          "tests_per_lab_per_run_small": 38,
+          "tests_per_lab_per_run_bulk": 76,
+          "default_active_labs": 10,
+          "in_scope": true
+        },
+        {
+          "assay_id": "ARCHIVE-RSV",
+          "assay_name": "Legacy RSV Archive",
+          "aliases": [
+            "ARCHIVE RSV"
+          ],
+          "reagent_price_per_1000_tests_usd": 73.0,
+          "carrier_type": "ambient_small",
+          "tests_per_lab_per_run_small": 30,
+          "tests_per_lab_per_run_bulk": 60,
+          "default_active_labs": 3,
+          "in_scope": false
+        }
+      ]
+    },
+    {
+      "region": "specialty",
+      "assays": [
+        {
+          "assay_id": "ENDO-TSH",
+          "assay_name": "Rapid TSH",
+          "aliases": [
+            "TSH Rapid",
+            "Rapid-TSH"
+          ],
+          "reagent_price_per_1000_tests_usd": 79.2,
+          "carrier_type": "ambient_small",
+          "tests_per_lab_per_run_small": 44,
+          "tests_per_lab_per_run_bulk": 88,
+          "default_active_labs": 14,
+          "in_scope": true
+        },
+        {
+          "assay_id": "IMMUNE-C3",
+          "assay_name": "Complement C3",
+          "aliases": [
+            "Complement-3",
+            "C3 Assay"
+          ],
+          "reagent_price_per_1000_tests_usd": 104.5,
+          "carrier_type": "frozen",
+          "tests_per_lab_per_run_small": 26,
+          "tests_per_lab_per_run_bulk": 52,
+          "default_active_labs": 8,
+          "in_scope": true
+        },
+        {
+          "assay_id": "INF-PCR",
+          "assay_name": "Respiratory PCR Mini",
+          "aliases": [
+            "Resp PCR Mini",
+            "RespMini PCR"
+          ],
+          "reagent_price_per_1000_tests_usd": 138.6,
+          "carrier_type": "frozen",
+          "tests_per_lab_per_run_small": 18,
+          "tests_per_lab_per_run_bulk": 36,
+          "default_active_labs": 6,
+          "in_scope": true
+        },
+        {
+          "assay_id": "TOX-SER",
+          "assay_name": "Serum Tox Screen",
+          "aliases": [
+            "SerumTox",
+            "TOX SCREEN"
+          ],
+          "reagent_price_per_1000_tests_usd": 111.3,
+          "carrier_type": "cold_chain",
+          "tests_per_lab_per_run_small": 22,
+          "tests_per_lab_per_run_bulk": 44,
+          "default_active_labs": 7,
+          "in_scope": true
+        }
+      ]
+    }
+  ]
+}

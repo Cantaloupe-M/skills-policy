@@ -1,0 +1,17 @@
+Key,Name,Description
+Sodium,Sodium,Conventional ICU reporting range for Sodium.
+Potassium,Potassium,Conventional ICU reporting range for Potassium.
+Chloride,Chloride,Conventional ICU reporting range for Chloride.
+Bicarbonate,Bicarbonate,Conventional ICU reporting range for Bicarbonate.
+Glucose,Glucose,Conventional ICU reporting range for Glucose.
+Lactate,Lactate,Conventional ICU reporting range for Lactate.
+Calcium,Total Calcium,Conventional ICU reporting range for Total Calcium.
+Magnesium,Magnesium,Conventional ICU reporting range for Magnesium.
+Phosphorus,Phosphorus,Conventional ICU reporting range for Phosphorus.
+Creatinine,Creatinine,Conventional ICU reporting range for Creatinine.
+BUN,Blood Urea Nitrogen,Conventional ICU reporting range for Blood Urea Nitrogen.
+Anion_Gap,Anion Gap,Conventional ICU reporting range for Anion Gap.
+Osmolality,Serum Osmolality,Conventional ICU reporting range for Serum Osmolality.
+Beta_Hydroxybutyrate,Beta Hydroxybutyrate,Conventional ICU reporting range for Beta Hydroxybutyrate.
+pH_Arterial,Arterial pH,Conventional ICU reporting range for Arterial pH.
+pCO2_Arterial,Arterial pCO2,Conventional ICU reporting range for Arterial pCO2.

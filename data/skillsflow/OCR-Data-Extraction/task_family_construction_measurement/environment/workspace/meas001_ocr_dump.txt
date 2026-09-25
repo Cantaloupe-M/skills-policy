@@ -1,0 +1,207 @@
+VAR=auto CFG=--psm 6
+CONSTRUCTION MEASUREMENT FORM
+PROJECT: PROJ-2024-001
+
+MEAS. DATE: 01-01-2024
+
+Item Description Qty Unit Unit Price
+Concrete C30 50 =m $150.00
+
+Steel reinforcement 100 «kg = $12.50
+Brick work 200 =m? $45.00
+
+PROJECT TOTAL: $1500.00
+
+---
+VAR=auto CFG=--psm 4
+CONSTRUCTION MEASUREMENT FORM
+PROJECT: PROJ-2024-001
+MEAS. DATE: 01-01-2024
+
+Item Description Qty Unit Unit Price
+
+Concrete C30 50 =m $150.00
+Steel reinforcement 100 «kg = $12.50
+Brick work 200 =m? $45.00
+
+PROJECT TOTAL: $1500.00
+
+---
+VAR=auto CFG=--psm 11
+CONSTRUCTION MEASUREMENT FORM
+
+PROJECT: PROJ-2024-001
+
+MEAS. DATE: 01-01-2024
+
+Item Description
+
+Qty Unit
+
+Unit Price
+
+Concrete C30
+
+50
+
+ms
+
+$150.00
+
+Steel reinforcement
+
+100
+
+kg
+
+$12.50
+
+Brick work
+
+200
+
+m2
+
+$45.00
+
+PROJECT TOTAL: $1500.00
+
+---
+VAR=sharp CFG=--psm 6
+CONSTRUCTION MEASUREMENT FORM
+PROJECT: PROJ-2024-001
+
+MEAS. DATE: 01-01-2024
+
+Item Description Qty Unit Unit Price
+Concrete C30 50 m® $150.00
+
+Steel reinforcement 100 «kg §=$12.50
+Brick work 200 =m? $45.00
+
+PROJECT TOTAL: $1500.00
+
+---
+VAR=sharp CFG=--psm 4
+CONSTRUCTION MEASUREMENT FORM
+PROJECT: PROJ-2024-001
+MEAS. DATE: 01-01-2024
+
+Item Description Qty Unit Unit Price
+
+Concrete C30 50 m® $150.00
+Steel reinforcement 100 «kg §=$12.50
+Brick work 200 =m? $45.00
+
+PROJECT TOTAL: $1500.00
+
+---
+VAR=sharp CFG=--psm 11
+CONSTRUCTION MEASUREMENT FORM
+
+PROJECT: PROJ-2024-001
+
+MEAS. DATE: 01-01-2024
+
+Item Description
+
+Qty Unit
+
+Unit Price
+
+Concrete C30
+
+50
+
+ms
+
+$150.00
+
+Steel reinforcement
+
+100
+
+kg
+
+$12.50
+
+Brick work
+
+200
+
+me
+
+$45.00
+
+PROJECT TOTAL: $1500.00
+
+---
+VAR=thresh CFG=--psm 6
+CONSTRUCTION MEASUREMENT FORM
+PROJECT: PROJ-2024-001
+
+MEAS. DATE: 01-01-2024
+
+Item Description Qty Unit Unit Price
+Concrete C30 50 om? ~—- $150.00
+
+Steel reinforcement 100 «kg «= $12.50
+Brick work 200 =m? $45.00
+
+PROJECT TOTAL: $1500.00
+
+---
+VAR=thresh CFG=--psm 4
+CONSTRUCTION MEASUREMENT FORM
+PROJECT: PROJ-2024-001
+MEAS. DATE: 01-01-2024
+
+Item Description Qty Unit Unit Price
+
+Concrete C30 50 om? ~—- $150.00
+Steel reinforcement 100 «kg «= $12.50
+Brick work 200 =m? $45.00
+
+PROJECT TOTAL: $1500.00
+
+---
+VAR=thresh CFG=--psm 11
+CONSTRUCTION MEASUREMENT FORM
+
+PROJECT: PROJ-2024-001
+
+MEAS. DATE: 01-01-2024
+
+Item Description
+
+Qty Unit
+
+Unit Price
+
+Concrete C30.
+
+50
+
+ms
+
+$150.00
+
+Steel reinforcement
+
+100
+
+kg
+
+$12.50
+
+Brick work
+
+200
+
+me
+
+$45.00
+
+PROJECT TOTAL: $1500.00
+
+---

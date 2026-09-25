@@ -1,0 +1,33 @@
+{
+    "id": "0eaae938-a841-4166-9d8e-35e2815fd20f",
+    "started_at": "2026-03-25T15:18:46.598899",
+    "finished_at": "2026-03-25T15:19:21.445658",
+    "n_total_trials": 5,
+    "stats": {
+        "n_trials": 5,
+        "n_errors": 0,
+        "evals": {
+            "oracle__harbor_gdpval_21": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "snack_dc_august_load_plan__vvuU29N",
+                            "clinic_branch_transfer_gap__spxpLPV",
+                            "frozen_meal_tracker_refresh__N3Kk6up",
+                            "petcare_midmonth_pallet_gap__DauU6HX",
+                            "harbor_gdpval_21__WAffAzb"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

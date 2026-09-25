@@ -1,0 +1,68 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 5,
+            "passed": 5,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774404196.4195197,
+            "stop": 1774404196.6294675
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_sheet_names",
+                "status": "passed",
+                "duration": 0.10777239300659858,
+                "start": 1774404196.5131052,
+                "stop": 1774404196.621294,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_defined_names",
+                "status": "passed",
+                "duration": 0.00017887397552840412,
+                "start": 1774404196.621504,
+                "stop": 1774404196.6218152,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_summary_structure_and_formulas",
+                "status": "passed",
+                "duration": 0.0006470419757533818,
+                "start": 1774404196.6221364,
+                "stop": 1774404196.623262,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_roster_and_assumptions_migration",
+                "status": "passed",
+                "duration": 0.004317750979680568,
+                "start": 1774404196.6234288,
+                "stop": 1774404196.6279356,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_calc_sheet_formulas",
+                "status": "passed",
+                "duration": 0.0002706669911276549,
+                "start": 1774404196.6280878,
+                "stop": 1774404196.6285143,
+                "retries": 2,
+                "file_path": "test_outputs.py",
+                "tags": [
+                    "parametrize::sheet_name,year_token,service_ref::[('EE Calcs (Current)', 'Yr1', None), ('EE Calcs (Yr+1)', 'Yr2', \"'EE Calcs (Current)'\"), ('EE Calcs (Yr+2)', 'Yr3', \"'EE Calcs (Yr+1)'\")]"
+                ]
+            }
+        ]
+    }
+}

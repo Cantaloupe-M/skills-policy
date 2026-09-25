@@ -1,0 +1,3 @@
+requested_series,history_code,history_status,current_code,deflator_column
+Temperature-controlled storage fees,CC_STOR,benchmark,CC_STOR_25,Cold_Storage_Price_2025_Base
+Urban last-mile parcel charges,LM_PARCEL,benchmark,LM_PARCEL_25,Last_Mile_Services_Price_2025_Base

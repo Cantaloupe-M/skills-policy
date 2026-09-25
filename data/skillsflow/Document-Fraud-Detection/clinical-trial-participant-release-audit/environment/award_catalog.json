@@ -1,0 +1,65 @@
+{
+  "sponsors": [
+    {
+      "sponsor_name": "AlphaBio",
+      "programs": [
+        {
+          "program_id": "PG-A",
+          "awards": [
+            {
+              "award_ref": "AR-5001",
+              "participant_code": "PC1001",
+              "approved_amount": 1200.0,
+              "status": "active"
+            },
+            {
+              "award_ref": "AR-5002",
+              "participant_code": "PC1002",
+              "approved_amount": 1400.0,
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "program_id": "PG-B",
+          "awards": [
+            {
+              "award_ref": "AR-5003",
+              "participant_code": "PC1003",
+              "approved_amount": 900.0,
+              "status": "archived"
+            },
+            {
+              "award_ref": "AR-5004",
+              "participant_code": "PC1004",
+              "approved_amount": 1000.0,
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sponsor_name": "CellNova",
+      "programs": [
+        {
+          "program_id": "PG-C",
+          "awards": [
+            {
+              "award_ref": "AR-5005",
+              "participant_code": "PC1005",
+              "approved_amount": 880.0,
+              "status": "active"
+            },
+            {
+              "award_ref": "AR-5006",
+              "participant_code": "PC1005",
+              "approved_amount": 750.0,
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

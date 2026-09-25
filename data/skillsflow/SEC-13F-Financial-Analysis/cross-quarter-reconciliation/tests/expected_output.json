@@ -1,0 +1,43 @@
+{
+  "comparison_pairs": [
+    {
+      "fund_query_current": "third point",
+      "quarter_current": "2025-q3",
+      "fund_query_baseline": "third point",
+      "quarter_baseline": "2025-q2",
+      "largest_buy_cusip": "655844108",
+      "largest_sell_cusip": "219948106"
+    },
+    {
+      "fund_query_current": "tiger global",
+      "quarter_current": "2025-q3",
+      "fund_query_baseline": "tiger global",
+      "quarter_baseline": "2025-q2",
+      "largest_buy_cusip": "594918104",
+      "largest_sell_cusip": "57636Q104"
+    }
+  ],
+  "issuer_checks": [
+    {
+      "issuer_query": "microsoft",
+      "quarter": "2025-q3",
+      "top2_manager_names": [
+        "VANGUARD GROUP INC",
+        "BlackRock, Inc."
+      ]
+    },
+    {
+      "issuer_query": "meta platforms",
+      "quarter": "2025-q3",
+      "top2_manager_names": [
+        "VANGUARD GROUP INC",
+        "BlackRock, Inc."
+      ]
+    }
+  ],
+  "snapshot_check": {
+    "fund_query": "scion asset management",
+    "quarter": "2025-q3",
+    "stock_holdings": 58
+  }
+}

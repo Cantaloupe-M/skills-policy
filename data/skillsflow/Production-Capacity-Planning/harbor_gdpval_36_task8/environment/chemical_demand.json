@@ -1,0 +1,387 @@
+[
+  {
+    "week": 10,
+    "data": {
+      "demand_per_week": 253.06
+    },
+    "priority": "HIGH"
+  },
+  {
+    "week": 11,
+    "data": {
+      "demand_per_week": 243.1
+    },
+    "priority": "HIGH"
+  },
+  {
+    "week": 12,
+    "data": {
+      "demand_per_week": 250.1
+    },
+    "priority": "HIGH"
+  },
+  {
+    "week": 13,
+    "data": {
+      "demand_per_week": 242.71
+    },
+    "priority": "HIGH"
+  },
+  {
+    "week": 14,
+    "data": {
+      "demand_per_week": 255.81
+    },
+    "priority": "HIGH"
+  },
+  {
+    "week": 15,
+    "data": {
+      "demand_per_week": 260.92
+    },
+    "priority": "HIGH"
+  },
+  {
+    "week": 15,
+    "data": {
+      "demand_per_week": 310.0
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 16,
+    "data": {
+      "demand_per_week": 266.93
+    },
+    "priority": "HIGH"
+  },
+  {
+    "week": 17,
+    "data": {
+      "demand_per_week": 267.89
+    },
+    "priority": "HIGH"
+  },
+  {
+    "week": 18,
+    "data": {
+      "demand_per_week": 236.31
+    },
+    "priority": "HIGH"
+  },
+  {
+    "week": 19,
+    "data": {
+      "demand_per_week": 167.42
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 20,
+    "data": {
+      "demand_per_week": 170.17
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 20,
+    "data": {
+      "demand_per_week": null
+    },
+    "priority": "NORMAL"
+  },
+  {
+    "week": 21,
+    "data": {
+      "demand_per_week": 175.52
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 22,
+    "data": {
+      "demand_per_week": 190.77
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 23,
+    "data": {
+      "demand_per_week": 161.15
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 24,
+    "data": {
+      "demand_per_week": 173.5
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 25,
+    "data": {
+      "demand_per_week": 163.15
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 25,
+    "data": {
+      "demand_per_week": 220.0
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 26,
+    "data": {
+      "demand_per_week": 174.06
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 27,
+    "data": {
+      "demand_per_week": 178.91
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 28,
+    "data": {
+      "demand_per_week": 172.81
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 29,
+    "data": {
+      "demand_per_week": 173.88
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 30,
+    "data": {
+      "demand_per_week": 163.28
+    },
+    "priority": "MED"
+  },
+  {
+    "week": 31,
+    "data": {
+      "demand_per_week": 128.11
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 32,
+    "data": {
+      "demand_per_week": 122.18
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 33,
+    "data": {
+      "demand_per_week": 131.26
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 34,
+    "data": {
+      "demand_per_week": 141.35
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 35,
+    "data": {
+      "demand_per_week": 110.91
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 35,
+    "data": {
+      "demand_per_week": null
+    },
+    "priority": "NORMAL"
+  },
+  {
+    "week": 36,
+    "data": {
+      "demand_per_week": 104.52
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 37,
+    "data": {
+      "demand_per_week": 129.73
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 38,
+    "data": {
+      "demand_per_week": 119.52
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 38,
+    "data": {
+      "demand_per_week": 175.0
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 39,
+    "data": {
+      "demand_per_week": 112.27
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 40,
+    "data": {
+      "demand_per_week": 112.32
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 41,
+    "data": {
+      "demand_per_week": 147.77
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 42,
+    "data": {
+      "demand_per_week": 137.86
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 43,
+    "data": {
+      "demand_per_week": 143.39
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 44,
+    "data": {
+      "demand_per_week": 148.62
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 45,
+    "data": {
+      "demand_per_week": 119.91
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 46,
+    "data": {
+      "demand_per_week": 146.17
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 47,
+    "data": {
+      "demand_per_week": 118.44
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 48,
+    "data": {
+      "demand_per_week": 130.44
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 49,
+    "data": {
+      "demand_per_week": 138.37
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 50,
+    "data": {
+      "demand_per_week": 112.76
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 50,
+    "data": {
+      "demand_per_week": null
+    },
+    "priority": "NORMAL"
+  },
+  {
+    "week": 51,
+    "data": {
+      "demand_per_week": 133.11
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 52,
+    "data": {
+      "demand_per_week": 139.6
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 53,
+    "data": {
+      "demand_per_week": 149.49
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 54,
+    "data": {
+      "demand_per_week": 103.72
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 55,
+    "data": {
+      "demand_per_week": 106.56
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 56,
+    "data": {
+      "demand_per_week": 134.29
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 57,
+    "data": {
+      "demand_per_week": 100.01
+    },
+    "priority": "LOW"
+  },
+  {
+    "week": 58,
+    "data": {
+      "demand_per_week": 120.89
+    },
+    "priority": "LOW"
+  }
+]

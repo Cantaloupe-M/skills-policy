@@ -1,0 +1,8 @@
+Key,Name,Description
+pH_Arterial,Arterial pH,Conventional reporting range for Arterial pH.
+pCO2_Arterial,Arterial pCO2,Conventional reporting range for Arterial pCO2.
+pO2_Arterial,Arterial pO2,Conventional reporting range for Arterial pO2.
+Bicarbonate,Bicarbonate,Conventional reporting range for Bicarbonate.
+Lactate,Lactate,Conventional reporting range for Lactate.
+Glucose,Glucose,Conventional reporting range for Glucose.
+Magnesium,Magnesium,Conventional reporting range for Magnesium.

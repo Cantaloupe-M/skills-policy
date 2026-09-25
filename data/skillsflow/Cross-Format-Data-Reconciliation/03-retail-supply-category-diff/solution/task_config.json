@@ -1,0 +1,15 @@
+{
+  "pdf_file": "/root/retail_supply_archive.pdf",
+  "excel_file": "/root/retail_supply_current.xlsx",
+  "output_file": "/root/retail_supply_diff_report.json",
+  "deleted_key": "dropped_categories",
+  "modified_key": "adjusted_categories",
+  "id_pattern": "^RTL\\d{4}$",
+  "int_columns": [
+    "Spend2019K",
+    "Spend2024K"
+  ],
+  "float_columns": [
+    "FiveYearCAGR"
+  ]
+}

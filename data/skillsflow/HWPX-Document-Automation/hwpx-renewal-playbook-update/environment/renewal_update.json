@@ -1,0 +1,9 @@
+{
+  "customer": "Asteron Commerce",
+  "owner_name": "한예진",
+  "window_start": "2026-08-12",
+  "window_end": "2026-08-26",
+  "band": "Priority-24M",
+  "escalation_email": "renewals-escalation@asteron.example",
+  "note": "가격 검토가 끝날 때까지 할인 문구를 외부에 공유하지 마세요."
+}

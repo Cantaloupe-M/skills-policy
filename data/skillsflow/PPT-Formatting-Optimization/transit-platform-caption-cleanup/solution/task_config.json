@@ -1,0 +1,67 @@
+{
+  "input_file": "Transit-Platform-Review.pptx",
+  "output_file": "Transit-Platform-Review_cleaned.pptx",
+  "summary_mode": "append",
+  "summary_title": "Platform Log",
+  "summary_slide_number": 7,
+  "output_slide_count": 7,
+  "style": {
+    "font": "Arial",
+    "size": 1600,
+    "color": "49607A",
+    "bold": false,
+    "italic": false
+  },
+  "slides": [
+    {
+      "slide_number": 2,
+      "caption_raw": "Harbor Exchange Platform",
+      "caption_clean": "Harbor Exchange Platform",
+      "container_mode": "group",
+      "preserve_texts": [
+        "Bay Line",
+        "Service alert: East escalator inspection overnight"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "caption_raw": "Civic Center Transfer Hall",
+      "caption_clean": "Civic Center Transfer Hall",
+      "container_mode": "group",
+      "preserve_texts": [
+        "Civic Loop",
+        "Service alert: Elevator escort in effect"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "caption_raw": "Harbor Exchange Platform",
+      "caption_clean": "Harbor Exchange Platform",
+      "container_mode": "group",
+      "preserve_texts": [
+        "Bay Line",
+        "Service alert: Poster case replacement pending"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "caption_raw": "Marina South Shuttle Bay",
+      "caption_clean": "Marina South Shuttle Bay",
+      "container_mode": "group",
+      "preserve_texts": [
+        "Harbor Flyer",
+        "Service alert: Queue rail repaint scheduled"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "caption_raw": "North Terminal Concourse",
+      "caption_clean": "North Terminal Concourse",
+      "container_mode": "group",
+      "preserve_texts": [
+        "North Spur",
+        "Service alert: Wayfinding decals under review"
+      ]
+    }
+  ]
+}

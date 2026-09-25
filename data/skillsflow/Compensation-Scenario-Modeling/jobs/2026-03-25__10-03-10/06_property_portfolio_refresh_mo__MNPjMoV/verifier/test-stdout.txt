@@ -1,0 +1,29 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /tests
+plugins: json-ctrf-0.3.5
+collecting ... collected 9 items
+
+../tests/test_outputs.py::TestSheetStructure::test_file_exists PASSED    [ 11%]
+../tests/test_outputs.py::TestSheetStructure::test_sheet_names PASSED    [ 22%]
+../tests/test_outputs.py::TestSheetStructure::test_named_ranges_count PASSED [ 33%]
+../tests/test_outputs.py::TestSheetStructure::test_summary_title PASSED  [ 44%]
+../tests/test_outputs.py::TestSheetStructure::test_ee_calcs_row_count PASSED [ 55%]
+../tests/test_outputs.py::TestSheetStructure::test_quarterly_totals_row_91 PASSED [ 66%]
+../tests/test_outputs.py::TestSheetStructure::test_summary_references_row_91 PASSED [ 77%]
+../tests/test_outputs.py::TestSheetStructure::test_roster_count PASSED   [ 88%]
+../tests/test_outputs.py::TestSheetStructure::test_yoy_service_progression PASSED [100%]
+
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_file_exists
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_sheet_names
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_named_ranges_count
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_summary_title
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_ee_calcs_row_count
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_quarterly_totals_row_91
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_summary_references_row_91
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_roster_count
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_yoy_service_progression
+============================== 9 passed in 0.49s ===============================

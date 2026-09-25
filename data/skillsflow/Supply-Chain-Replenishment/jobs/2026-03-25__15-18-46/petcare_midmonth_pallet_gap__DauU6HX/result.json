@@ -1,0 +1,96 @@
+{
+    "id": "f0ade57a-74cf-4af9-9afa-75f3c09810cb",
+    "task_name": "petcare_midmonth_pallet_gap",
+    "trial_name": "petcare_midmonth_pallet_gap__DauU6HX",
+    "trial_uri": "file:///Users/zhangziao/Documents/%E6%A0%87%E6%B3%A82%E5%87%86%E5%A4%87/harbor_gdpval_21/jobs/2026-03-25__15-18-46/petcare_midmonth_pallet_gap__DauU6HX",
+    "task_id": {
+        "path": "petcare_midmonth_pallet_gap"
+    },
+    "source": "harbor_gdpval_21",
+    "task_checksum": "3d34dae52cf0ad4cdf80b716a4ce48b26972c9a74bd8c6a4b1e67b50f616f6fa",
+    "config": {
+        "task": {
+            "path": "petcare_midmonth_pallet_gap",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "harbor_gdpval_21"
+        },
+        "trial_name": "petcare_midmonth_pallet_gap__DauU6HX",
+        "trials_dir": "jobs/2026-03-25__15-18-46",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts_json": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "0eaae938-a841-4166-9d8e-35e2815fd20f"
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-03-25T07:18:46.656903Z",
+    "finished_at": "2026-03-25T07:19:10.769327Z",
+    "environment_setup": {
+        "started_at": "2026-03-25T07:18:46.661602Z",
+        "finished_at": "2026-03-25T07:18:59.417006Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-03-25T07:18:59.417044Z",
+        "finished_at": "2026-03-25T07:18:59.417094Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-03-25T07:18:59.417178Z",
+        "finished_at": "2026-03-25T07:18:59.703781Z"
+    },
+    "verifier": {
+        "started_at": "2026-03-25T07:18:59.703908Z",
+        "finished_at": "2026-03-25T07:19:00.107816Z"
+    }
+}

@@ -1,0 +1,21 @@
+version = "1.0"
+
+[metadata]
+author_name = "CatPaw Task Engineer"
+author_email = "task-engineer@meituan.com"
+difficulty = "medium"
+category = "education-operations"
+tags = ["pdf", "xlsx", "reconciliation", "education", "diff"]
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 4096
+storage_mb = 10240
+docker_image = "harbor-prebuilt:task-1d7be3d8e6616dc5"

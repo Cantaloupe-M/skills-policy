@@ -1,0 +1,9 @@
+reported_name,normalized_site,record_status,crew
+Pier 4 East Face,Pier 4 - East Face,active,Team 1
+East Face - Pier 4,Pier 4 - East Face,active,Team 1
+Substation 2 Roof Hatch,Substation 2 - Roof Hatch,active,Team 3
+North Seawall Joint,North Seawall - Expansion Joint,active,Team 4
+Legacy Alias,Unused Canonical,ignore,Archive
+Retired Alias,Retired Canonical,retired,Archive
+,Incomplete Canonical,active,Team 5
+Broken Row,,active,Team 5

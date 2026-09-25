@@ -1,0 +1,21 @@
+version = "1.0"
+
+[metadata]
+author_name = "Task Synthesis Agent"
+author_email = "task-synthesis@harbor.local"
+difficulty = "medium"
+category = "data-analysis"
+tags = ["dmaic", "quality-management", "spc", "anova", "regression", "hypothesis-testing", "hospital_lab_analyze_02"]
+
+[verifier]
+timeout_sec = 1200.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 4096
+storage_mb = 10240
+docker_image = "harbor-prebuilt:task-8ee7bf83f4a9881f"

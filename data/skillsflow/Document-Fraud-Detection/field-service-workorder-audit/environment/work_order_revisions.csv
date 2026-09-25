@@ -1,0 +1,5 @@
+work_order_id,revision,revised_amount,site_zone,approval_state
+WO-8802,1,3725.5,Z-CENTRAL,approved
+WO-8804,1,4950.0,Z-WEST,draft
+WO-8807,1,6400.0,Z-WEST,approved
+WO-8807,2,6550.0,Z-WEST,approved

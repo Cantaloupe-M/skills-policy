@@ -1,0 +1,19 @@
+{
+  "fund_query": "elliott associates",
+  "quarter": "2025-q3",
+  "aum_total": 302153940.0,
+  "stock_row_count": 32,
+  "stock_cusip_count": 32,
+  "top_class_labels": [
+    "com",
+    "cl a",
+    "cap stk cl a",
+    "cap stk cl c"
+  ],
+  "top_class_counts": [
+    23,
+    4,
+    1,
+    1
+  ]
+}

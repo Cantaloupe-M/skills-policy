@@ -1,0 +1,31 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /tests
+plugins: json-ctrf-0.3.5
+collecting ... collected 10 items
+
+../tests/test_outputs.py::TestSheetStructure::test_file_exists PASSED    [ 10%]
+../tests/test_outputs.py::TestSheetStructure::test_sheet_names PASSED    [ 20%]
+../tests/test_outputs.py::TestSheetStructure::test_named_ranges_count PASSED [ 30%]
+../tests/test_outputs.py::TestSheetStructure::test_summary_title PASSED  [ 40%]
+../tests/test_outputs.py::TestSheetStructure::test_summary_base_salary PASSED [ 50%]
+../tests/test_outputs.py::TestSheetStructure::test_summary_comp_rows PASSED [ 60%]
+../tests/test_outputs.py::TestSheetStructure::test_ee_calcs_row_count PASSED [ 70%]
+../tests/test_outputs.py::TestSheetStructure::test_quarterly_totals_row PASSED [ 80%]
+../tests/test_outputs.py::TestSheetStructure::test_roster_migrated PASSED [ 90%]
+../tests/test_outputs.py::TestSheetStructure::test_ee_calcs_yoy_service_progression PASSED [100%]
+
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_file_exists
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_sheet_names
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_named_ranges_count
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_summary_title
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_summary_base_salary
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_summary_comp_rows
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_ee_calcs_row_count
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_quarterly_totals_row
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_roster_migrated
+PASSED ../tests/test_outputs.py::TestSheetStructure::test_ee_calcs_yoy_service_progression
+============================== 10 passed in 0.33s ==============================

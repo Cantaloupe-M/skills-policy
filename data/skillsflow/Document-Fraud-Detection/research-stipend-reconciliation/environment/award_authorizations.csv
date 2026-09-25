@@ -1,0 +1,7 @@
+award_ref,recipient_code,approved_value,campus_code,state
+AWD-3001,R501,1800.0,CAMP-N,active
+AWD-3002,R502,2400.0,CAMP-S,active
+AWD-3003,R503,1950.75,CAMP-E,active
+AWD-3004,R504,1600.0,CAMP-W,active
+AWD-3005,R505,2100.0,CAMP-N,archived
+AWD-3006,R501,900.0,CAMP-N,active

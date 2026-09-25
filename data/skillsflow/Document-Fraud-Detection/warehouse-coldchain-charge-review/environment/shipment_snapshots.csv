@@ -1,0 +1,7 @@
+shipment_ref,snapshot_seq,snapshot_state,expected_charge,carrier_id
+SH-7101,1,approved,830.0,CR901
+SH-7102,1,approved,915.0,CR902
+SH-7103,1,approved,745.0,CR903
+SH-7103,2,approved,,CR903
+SH-7103,3,draft,760.0,CR903
+SH-7105,1,approved,640.0,CR905

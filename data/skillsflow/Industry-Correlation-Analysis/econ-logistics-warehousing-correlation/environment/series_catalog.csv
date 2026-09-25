@@ -1,0 +1,3 @@
+requested_series,history_sheet,history_code,current_sheet,current_code,deflator_column
+Freight brokerage revenue,AnnualSeries,BROKER_REV,QuarterlyUpdate,BR_REV_25,Transport_Services_Price_2025_Base
+Warehouse equipment outlays,AnnualSeries,WHSE_EQUIP,QuarterlyUpdate,WH_EQP_25,Warehouse_Equipment_Price_2025_Base

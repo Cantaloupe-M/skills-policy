@@ -1,0 +1,42 @@
+[
+  {
+    "claim_page_number": 2,
+    "employee_name": "Brian Ortega",
+    "claimed_amount": 980.0,
+    "bank_account": "WRONG-222",
+    "trip_id": "TRIP-4102",
+    "reason": "Account Mismatch"
+  },
+  {
+    "claim_page_number": 3,
+    "employee_name": "Dana Kapor",
+    "claimed_amount": 1500.75,
+    "bank_account": "ACCT-003",
+    "trip_id": "TRIP-4103",
+    "reason": "Amount Mismatch"
+  },
+  {
+    "claim_page_number": 4,
+    "employee_name": "Lucas Grey",
+    "claimed_amount": 645.2,
+    "bank_account": "ACCT-009",
+    "trip_id": "TRIP-4104",
+    "reason": "Unknown Employee"
+  },
+  {
+    "claim_page_number": 5,
+    "employee_name": "Miguel Santos",
+    "claimed_amount": 645.2,
+    "bank_account": "ACCT-004",
+    "trip_id": "TRIP-9999",
+    "reason": "Invalid Trip ID"
+  },
+  {
+    "claim_page_number": 6,
+    "employee_name": "Priya Nair",
+    "claimed_amount": 1333.33,
+    "bank_account": "ACCT-005",
+    "trip_id": "TRIP-4107",
+    "reason": "Traveler Mismatch"
+  }
+]

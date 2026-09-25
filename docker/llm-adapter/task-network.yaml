@@ -1,0 +1,11 @@
+services:
+  main:
+    networks:
+      - default
+      - llm-adapter
+
+networks:
+  llm-adapter:
+    external: true
+    name: skillflow-llm-adapter
+

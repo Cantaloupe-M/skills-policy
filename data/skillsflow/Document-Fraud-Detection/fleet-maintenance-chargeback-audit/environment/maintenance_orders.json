@@ -1,0 +1,55 @@
+{
+  "depots": [
+    {
+      "depot_code": "D-NORTH",
+      "orders": [
+        {
+          "order_id": "MO-9001",
+          "provider_id": "P801",
+          "approved_charge": 1800.0,
+          "lifecycle": "approved"
+        },
+        {
+          "order_id": "MO-9002",
+          "provider_id": "P802",
+          "approved_charge": 2400.0,
+          "lifecycle": "approved"
+        }
+      ]
+    },
+    {
+      "depot_code": "D-CENTRAL",
+      "orders": [
+        {
+          "order_id": "MO-9003",
+          "provider_id": "P803",
+          "approved_charge": 1150.0,
+          "lifecycle": "approved"
+        },
+        {
+          "order_id": "MO-9004",
+          "provider_id": "P804",
+          "approved_charge": 980.0,
+          "lifecycle": "approved"
+        }
+      ]
+    },
+    {
+      "depot_code": "D-WEST",
+      "orders": [
+        {
+          "order_id": "MO-9005",
+          "provider_id": "P805",
+          "approved_charge": 2050.0,
+          "lifecycle": "approved"
+        },
+        {
+          "order_id": "MO-9006",
+          "provider_id": "P801",
+          "approved_charge": 760.0,
+          "lifecycle": "closed"
+        }
+      ]
+    }
+  ]
+}

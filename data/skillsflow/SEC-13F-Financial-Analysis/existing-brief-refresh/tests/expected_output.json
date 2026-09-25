@@ -1,0 +1,51 @@
+{
+  "report_date": "2025-q3",
+  "sections": [
+    {
+      "section_id": "fund_snapshots",
+      "items": [
+        {
+          "fund_query": "renaissance technologies",
+          "aum": 1252307416.0,
+          "stock_holdings": 450
+        },
+        {
+          "fund_query": "scion asset management",
+          "aum": 140856976.0,
+          "stock_holdings": 58
+        }
+      ]
+    },
+    {
+      "section_id": "issuer_leaders",
+      "items": [
+        {
+          "issuer_query": "palantir",
+          "top_manager": "VANGUARD GROUP INC"
+        },
+        {
+          "issuer_query": "meta platforms",
+          "top_manager": "VANGUARD GROUP INC"
+        }
+      ]
+    },
+    {
+      "section_id": "change_checks",
+      "items": [
+        {
+          "fund_query": "bridgewater associates",
+          "largest_buy_cusip": "512807306",
+          "largest_sell_cusip": "67066G104"
+        },
+        {
+          "fund_query": "third point",
+          "largest_buy_cusip": "655844108",
+          "largest_sell_cusip": "219948106"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "legacy placeholder should remain untouched"
+  ]
+}

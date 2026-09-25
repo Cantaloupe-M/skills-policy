@@ -1,0 +1,31 @@
+{
+  "issuer_top_holders": [
+    {
+      "issuer_query": "palantir",
+      "quarter": "2025-q3",
+      "manager_names": [
+        "VANGUARD GROUP INC",
+        "BlackRock, Inc.",
+        "STATE STREET CORP"
+      ]
+    },
+    {
+      "issuer_query": "microsoft",
+      "quarter": "2025-q3",
+      "manager_names": [
+        "VANGUARD GROUP INC",
+        "BlackRock, Inc.",
+        "STATE STREET CORP"
+      ]
+    }
+  ],
+  "fund_change": [
+    {
+      "fund_query_current": "tiger global",
+      "quarter_current": "2025-q3",
+      "fund_query_baseline": "tiger global",
+      "quarter_baseline": "2025-q2",
+      "largest_buy_cusip": "594918104"
+    }
+  ]
+}

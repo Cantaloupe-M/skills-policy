@@ -1,0 +1,40 @@
+# job_name: myevolution
+job_name: skillflow
+
+agents:
+  - import_path: libs.harbor_noinstall_agents.agents:NoInstallClaudeCode
+    # model_name / env.ANTHROPIC_* are injected at runtime from llm_config.py
+    kwargs: {}
+
+environment:
+  allow_internet: true
+  force_build: true
+  delete: true
+  env:
+    HTTP_PROXY: "http://192.168.135.225:7890"
+    HTTPS_PROXY: "http://192.168.135.225:7890"
+    NO_PROXY: "localhost,127.0.0.1,::1,10.,172."
+
+orchestrator:
+  type: local
+  n_concurrent_trials: 1
+  quiet: false
+
+datasets:
+  - path: data/skillsflow/Compensation-Scenario-Modeling
+  - path: data/skillsflow/Cross-Format-Data-Reconciliation
+  - path: data/skillsflow/DMAIC-Quality-Analysis
+  - path: data/skillsflow/Distribution-Center-Auditing
+  - path: data/skillsflow/Document-Fraud-Detection
+  - path: data/skillsflow/Embedded-Data-Repair
+  - path: data/skillsflow/Financial-Statement-Rolling
+  - path: data/skillsflow/HWPX-Document-Automation
+  - path: data/skillsflow/Healthcare-Cost-Benefit-Analysis
+  - path: data/skillsflow/Industry-Correlation-Analysis
+  - path: data/skillsflow/Inventory-&-Finance-Integration
+  - path: data/skillsflow/Medical-Data-Standardization
+  - path: data/skillsflow/OCR-Data-Extraction
+  - path: data/skillsflow/Operational-Recovery-Planning
+  - path: data/skillsflow/PPT-Formatting-Optimization
+  - path: data/skillsflow/Production-Capacity-Planning
+  - path: data/skillsflow/SEC-13F-Financial-Analysis

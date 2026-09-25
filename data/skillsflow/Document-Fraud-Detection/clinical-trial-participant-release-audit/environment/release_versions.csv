@@ -1,0 +1,7 @@
+award_ref,version_no,approval_state,version_amount,participant_code
+AR-5002,1,approved,1450.0,PC1002
+AR-5002,2,approved,,PC1002
+AR-5004,1,approved,1025.0,PC1004
+AR-5006,1,approved,,PC1005
+AR-5006,2,approved,760.0,PC1005
+AR-5005,1,rejected,900.0,PC1005

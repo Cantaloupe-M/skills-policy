@@ -1,0 +1,15 @@
+{
+  "pdf_file": "/root/cloud_service_portfolio_archive.pdf",
+  "excel_file": "/root/cloud_service_portfolio_current.xlsx",
+  "output_file": "/root/cloud_service_portfolio_diff.json",
+  "deleted_key": "retired_service_ids",
+  "modified_key": "changed_services",
+  "id_pattern": "^CSV\\d{4}$",
+  "int_columns": [
+    "Spend2019K",
+    "Spend2024K"
+  ],
+  "float_columns": [
+    "FiveYearCAGR"
+  ]
+}

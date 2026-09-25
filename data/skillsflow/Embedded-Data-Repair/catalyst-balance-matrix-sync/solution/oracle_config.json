@@ -1,0 +1,7 @@
+{
+  "target_embedding": "Microsoft_Excel_Worksheet.xlsx",
+  "target_sheet": "Live Catalyst Matrix",
+  "anchor_row": 4,
+  "anchor_col": 2,
+  "alias_map": "/root/label_aliases.csv"
+}

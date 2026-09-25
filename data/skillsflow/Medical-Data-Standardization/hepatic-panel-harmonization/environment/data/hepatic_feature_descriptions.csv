@@ -1,0 +1,19 @@
+Key,Name,Description
+AST,Aspartate Aminotransferase,Conventional reporting range for Aspartate Aminotransferase.
+ALT,Alanine Aminotransferase,Conventional reporting range for Alanine Aminotransferase.
+ALP,Alkaline Phosphatase,Conventional reporting range for Alkaline Phosphatase.
+GGT,Gamma-Glutamyl Transferase,Conventional reporting range for Gamma-Glutamyl Transferase.
+Total_Bilirubin,Total Bilirubin,Conventional reporting range for Total Bilirubin.
+Direct_Bilirubin,Direct Bilirubin,Conventional reporting range for Direct Bilirubin.
+Albumin,Albumin,Conventional reporting range for Albumin.
+Total_Protein,Total Protein,Conventional reporting range for Total Protein.
+INR,International Normalized Ratio,Conventional reporting range for International Normalized Ratio.
+Ammonia,Ammonia,Conventional reporting range for Ammonia.
+Platelets,Platelets,Conventional reporting range for Platelets.
+AFP,Alpha Fetoprotein,Conventional reporting range for Alpha Fetoprotein.
+Bile_Acids,Total Bile Acids,Conventional reporting range for Total Bile Acids.
+Creatinine,Creatinine,Conventional reporting range for Creatinine.
+Sodium,Sodium,Conventional reporting range for Sodium.
+Hemoglobin,Hemoglobin,Conventional reporting range for Hemoglobin.
+Ferritin,Ferritin,Conventional reporting range for Ferritin.
+Glucose,Glucose,Conventional reporting range for Glucose.

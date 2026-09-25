@@ -1,0 +1,7 @@
+vendor,beginning_balance,jan_adds,jan_amortization,jan_ending_balance,feb_adds,feb_amortization,feb_ending_balance,mar_adds,mar_amortization,mar_ending_balance,apr_adds,apr_amortization,apr_ending_balance,amortization_months,comments,account_number
+Blue Line Rail Ops,1259.06,4497.51,959.43,4797.14,4125.49,1487.11,7435.52,8450.09,2647.6,13238.01,17988.83,5204.47,26022.37,6,Rollforward batch 1,4320
+Green Line Rail Ops,814.2,10112.57,910.56,10016.21,1794.17,984.2,10826.18,4548.03,1281.18,14093.03,5996.2,1674.1,18415.13,12,Rollforward batch 2,4320
+Airport Link Rail,4205.01,6047.37,1708.73,8543.65,126.09,1444.96,7224.78,824.25,1341.51,6707.52,13652.01,3393.26,16966.27,6,Rollforward batch 3,4320
+University Spur Rail,1922.19,12717.7,1219.99,13419.9,11940.76,2113.39,23247.27,14483.2,3144.21,34586.26,7962.05,3545.69,39002.62,12,Rollforward batch 4,4320
+Riverfront Rail Services,5921.21,4300.92,1703.69,8518.44,0.0,1419.74,7098.7,44.32,1190.5,5952.52,0.0,992.09,4960.43,6,Rollforward batch 5,4320
+Metro Central Rail,4456.27,10747.83,1267.01,13937.09,4647.89,1548.75,17036.23,4965.45,1833.47,20168.21,16093.54,3021.81,33239.94,12,Rollforward batch 6,4320

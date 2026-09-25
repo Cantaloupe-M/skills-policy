@@ -1,0 +1,13 @@
+therapy_code,revision,status,active_patients
+HINF-ALPHA,1,draft,88
+HINF-ALPHA,2,approved,92
+HINF-BETA,1,approved,78
+HINF-DELTA,1,rejected,70
+HINF-DELTA,2,approved,71
+HINF-EPS,1,approved,55
+HINF-EPS,2,approved,58
+HINF-GAMMA,1,approved,64
+HINF-GAMMA,2,draft,68
+HINF-OMEGA,1,approved,99
+HINF-ZETA,1,draft,49
+HINF-ZETA,2,approved,51

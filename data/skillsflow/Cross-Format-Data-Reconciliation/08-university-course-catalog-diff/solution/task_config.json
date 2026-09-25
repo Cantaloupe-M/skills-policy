@@ -1,0 +1,12 @@
+{
+  "pdf_file": "/root/course_catalog_2024.pdf",
+  "excel_file": "/root/course_catalog_2025.xlsx",
+  "output_file": "/root/course_diff_report.json",
+  "deleted_key": "removed_courses",
+  "modified_key": "revised_courses",
+  "id_pattern": "^CRS\\d{4}$",
+  "int_columns": [
+    "Credits"
+  ],
+  "float_columns": []
+}

@@ -1,0 +1,42 @@
+{
+  "input_file": "Wildlife-Field-Guide.pptx",
+  "output_file": "Wildlife-Field-Guide_cleaned.pptx",
+  "summary_mode": "append",
+  "summary_title": "Species Plates",
+  "summary_slide_number": 7,
+  "output_slide_count": 7,
+  "style": {
+    "font": "Calibri",
+    "size": 1700,
+    "color": "4A6A54",
+    "bold": false,
+    "italic": false
+  },
+  "slides": [
+    {
+      "slide_number": 2,
+      "caption_raw": "Snowy Egret in Tidal Marsh",
+      "caption_clean": "Snowy Egret in Tidal Marsh"
+    },
+    {
+      "slide_number": 3,
+      "caption_raw": "Harbor Seal on Basalt Shelf",
+      "caption_clean": "Harbor Seal on Basalt Shelf"
+    },
+    {
+      "slide_number": 4,
+      "caption_raw": "River Otter at Estuary Mouth",
+      "caption_clean": "River Otter at Estuary Mouth"
+    },
+    {
+      "slide_number": 5,
+      "caption_raw": "Snowy Egret in Tidal Marsh",
+      "caption_clean": "Snowy Egret in Tidal Marsh"
+    },
+    {
+      "slide_number": 6,
+      "caption_raw": "Tufted Puffin Above Kelp Line",
+      "caption_clean": "Tufted Puffin Above Kelp Line"
+    }
+  ]
+}

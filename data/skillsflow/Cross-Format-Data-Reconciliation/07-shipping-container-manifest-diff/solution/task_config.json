@@ -1,0 +1,12 @@
+{
+  "pdf_file": "/root/container_manifest_old.pdf",
+  "excel_file": "/root/container_manifest_current.xlsx",
+  "output_file": "/root/container_diff_report.json",
+  "deleted_key": "missing_containers",
+  "modified_key": "changed_containers",
+  "id_pattern": "^CNT\\d{4}$",
+  "int_columns": [],
+  "float_columns": [
+    "WeightTons"
+  ]
+}

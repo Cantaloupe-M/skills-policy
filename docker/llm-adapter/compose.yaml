@@ -1,0 +1,40 @@
+services:
+  llm-adapter:
+    image: ${LITELLM_ADAPTER_IMAGE:-ghcr.io/berriai/litellm:main-stable}
+    container_name: ${LITELLM_ADAPTER_CONTAINER}
+    command:
+      - --config
+      - /app/litellm-config.yaml
+      - --port
+      - "4000"
+    ports:
+      - "127.0.0.1::4000"
+    environment:
+      LITELLM_MASTER_KEY: ${LITELLM_MASTER_KEY}
+      LITELLM_CONFIG_REVISION: ${LITELLM_CONFIG_REVISION}
+      UPSTREAM_API_KEY: ${UPSTREAM_API_KEY}
+      UPSTREAM_BASE_URL: ${UPSTREAM_BASE_URL}
+      HTTP_PROXY: ${HTTP_PROXY:-}
+      HTTPS_PROXY: ${HTTPS_PROXY:-}
+      NO_PROXY: ${NO_PROXY:-localhost,127.0.0.1}
+    volumes:
+      - ${LITELLM_CONFIG_PATH}:/app/litellm-config.yaml:ro
+    networks:
+      llm-adapter:
+        aliases:
+          - ${LITELLM_ADAPTER_HOSTNAME}
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - >-
+          python -c "import urllib.request;
+          urllib.request.urlopen('http://127.0.0.1:4000/health/liveliness', timeout=2)"
+      interval: 2s
+      timeout: 3s
+      retries: 60
+      start_period: 5s
+
+networks:
+  llm-adapter:
+    name: ${LITELLM_ADAPTER_NETWORK}

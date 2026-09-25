@@ -1,0 +1,88 @@
+{
+  "service_groups": [
+    {
+      "group_name": "antiemetic",
+      "programs": [
+        {
+          "program_code": "ONC-ALFA",
+          "program_name": "AlfaEase",
+          "known_labels": [
+            "ALFA EASE",
+            "Alfa-Ease"
+          ],
+          "acquisition_cost_per_1000_units_usd": 58.4,
+          "units_per_day": 64,
+          "cooler_type": "small_cold",
+          "default_active_sites": 14,
+          "review_flag": "review"
+        },
+        {
+          "program_code": "ONC-BETA",
+          "program_name": "BetaCalm",
+          "known_labels": [
+            "BETA CALM"
+          ],
+          "acquisition_cost_per_1000_units_usd": 62.7,
+          "units_per_day": 59,
+          "cooler_type": "small_cold",
+          "default_active_sites": 11,
+          "review_flag": "review"
+        },
+        {
+          "program_code": "ONC-ARCH",
+          "program_name": "ArchiveNausea",
+          "known_labels": [
+            "ARCH NAUSEA"
+          ],
+          "acquisition_cost_per_1000_units_usd": 80.0,
+          "units_per_day": 75,
+          "cooler_type": "large_cold",
+          "default_active_sites": 4,
+          "review_flag": "archive"
+        }
+      ]
+    },
+    {
+      "group_name": "supportive",
+      "programs": [
+        {
+          "program_code": "ONC-DELTA",
+          "program_name": "DeltaGuard",
+          "known_labels": [
+            "Delta Guard"
+          ],
+          "acquisition_cost_per_1000_units_usd": 70.3,
+          "units_per_day": 67,
+          "cooler_type": "large_cold",
+          "default_active_sites": 10,
+          "review_flag": "review"
+        },
+        {
+          "program_code": "ONC-EPS",
+          "program_name": "EpsilonSupport",
+          "known_labels": [
+            "EPS SUPPORT",
+            "Epsilon Support"
+          ],
+          "acquisition_cost_per_1000_units_usd": 76.9,
+          "units_per_day": 72,
+          "cooler_type": "large_cold",
+          "default_active_sites": 9,
+          "review_flag": "review"
+        },
+        {
+          "program_code": "ONC-GAMMA",
+          "program_name": "GammaBridge",
+          "known_labels": [
+            "GAMMA BRIDGE"
+          ],
+          "acquisition_cost_per_1000_units_usd": 66.2,
+          "units_per_day": 55,
+          "cooler_type": "small_cold",
+          "default_active_sites": 13,
+          "review_flag": "review"
+        }
+      ]
+    }
+  ]
+}

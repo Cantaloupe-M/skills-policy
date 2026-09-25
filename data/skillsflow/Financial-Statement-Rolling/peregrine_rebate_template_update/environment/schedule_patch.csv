@@ -1,0 +1,3 @@
+action,target_sheet,row_key,partner,beginning_balance,jul_adds,jul_release,jul_ending_balance,aug_adds,aug_release,aug_ending_balance,sep_adds,sep_release,sep_ending_balance,oct_adds,oct_release,oct_ending_balance,term_months,comments,account_number
+override,Channel Rebates #6120,CR-09,,,,,,,,,4000,,5500,,,4000,,Quarterly true-up,
+insert,MDF Accrual #6125,MDF-07,Echo Events,0,0,0,0,8000,2000,6000,0,2000,4000,0,2000,2000,4,October summit,6125

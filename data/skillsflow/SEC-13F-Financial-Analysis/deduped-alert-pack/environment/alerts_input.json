@@ -1,0 +1,60 @@
+{
+  "alerts": [
+    {
+      "type": "issuer_top_holders",
+      "issuer_query": "palantir",
+      "quarter": "2025-q3",
+      "manager_names": [
+        "VANGUARD GROUP INC",
+        "BlackRock, Inc.",
+        "STATE STREET CORP"
+      ]
+    },
+    {
+      "type": "issuer_top_holders",
+      "issuer_query": "palantir",
+      "quarter": "2025-q3",
+      "manager_names": [
+        "VANGUARD GROUP INC",
+        "BlackRock, Inc.",
+        "STATE STREET CORP"
+      ]
+    },
+    {
+      "type": "fund_change",
+      "fund_query_current": "tiger global",
+      "quarter_current": "2025-q3",
+      "fund_query_baseline": "tiger global",
+      "quarter_baseline": "2025-q2",
+      "largest_buy_cusip": "594918104"
+    },
+    {
+      "type": "fund_change",
+      "fund_query_current": "tiger global",
+      "quarter_current": "2025-q3",
+      "fund_query_baseline": "tiger global",
+      "quarter_baseline": "2025-q2",
+      "largest_buy_cusip": "594918104"
+    },
+    {
+      "type": "issuer_top_holders",
+      "issuer_query": "microsoft",
+      "quarter": "2025-q3",
+      "manager_names": [
+        "VANGUARD GROUP INC",
+        "BlackRock, Inc.",
+        "STATE STREET CORP"
+      ]
+    },
+    {
+      "type": "ignore_me",
+      "issuer_query": "meta platforms",
+      "quarter": "2025-q3",
+      "manager_names": [
+        "placeholder one",
+        "placeholder two",
+        "placeholder three"
+      ]
+    }
+  ]
+}

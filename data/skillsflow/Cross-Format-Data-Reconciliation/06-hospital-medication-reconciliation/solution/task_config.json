@@ -1,0 +1,13 @@
+{
+  "pdf_file": "/root/medications_archive.pdf",
+  "excel_file": "/root/medications_live.xlsx",
+  "output_file": "/root/medication_diff_report.json",
+  "deleted_key": "deleted_medications",
+  "modified_key": "modified_medications",
+  "id_pattern": "^MED\\d{5}$",
+  "int_columns": [
+    "StockUnits",
+    "ReorderLevel"
+  ],
+  "float_columns": []
+}

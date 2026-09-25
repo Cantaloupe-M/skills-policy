@@ -1,0 +1,5 @@
+award_ref,revision_no,adjusted_value,campus_code,state
+AWD-3002,1,2500.0,CAMP-S,approved
+AWD-3002,2,2550.0,CAMP-S,approved
+AWD-3003,1,1900.75,CAMP-E,rejected
+AWD-3004,1,1600.0,CAMP-C,approved

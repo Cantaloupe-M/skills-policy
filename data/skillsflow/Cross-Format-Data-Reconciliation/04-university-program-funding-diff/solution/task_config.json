@@ -1,0 +1,15 @@
+{
+  "pdf_file": "/root/university_funding_archive.pdf",
+  "excel_file": "/root/university_funding_current.xlsx",
+  "output_file": "/root/university_funding_diff_report.json",
+  "deleted_key": "retired_schools",
+  "modified_key": "revised_schools",
+  "id_pattern": "^UNI\\d{4}$",
+  "int_columns": [
+    "Funding2019K",
+    "Funding2024K"
+  ],
+  "float_columns": [
+    "FiveYearCAGR"
+  ]
+}

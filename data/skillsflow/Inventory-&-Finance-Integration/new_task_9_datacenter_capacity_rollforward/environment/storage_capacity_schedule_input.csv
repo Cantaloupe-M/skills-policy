@@ -1,0 +1,7 @@
+vendor,beginning_balance,jan_adds,jan_amortization,jan_ending_balance,feb_adds,feb_amortization,feb_ending_balance,mar_adds,mar_amortization,mar_ending_balance,apr_adds,apr_amortization,apr_ending_balance,amortization_months,comments,account_number
+AWS Glacier Reserve,622.56,10271.28,1815.64,9078.2,0.0,1513.03,7565.17,15809.56,3895.79,19478.94,0.0,3246.49,16232.45,6,Rollforward batch 1,8200
+Azure Blob Tier,2408.85,13319.69,1310.71,14417.83,5517.69,1661.29,18274.23,13717.73,2666.0,29325.96,18133.5,3954.96,43504.5,12,Rollforward batch 2,8200
+GCP Nearline Bundle,658.63,12775.46,2239.02,11195.07,7404.53,3099.93,15499.67,14193.3,4948.83,24744.14,4637.7,4896.97,24484.87,6,Rollforward batch 3,8200
+Wasabi Archive Block,272.44,17248.6,1460.09,16060.95,0.0,1338.41,14722.54,1490.42,1351.08,14861.88,11863.81,2227.14,24498.55,12,Rollforward batch 4,8200
+Backblaze B2 Reserve,5141.98,16623.96,3627.66,18138.28,3691.22,3638.25,18191.25,0.0,3031.88,15159.37,3609.82,3128.2,15640.99,6,Rollforward batch 5,8200
+Cloudflare R2 Pool,3157.33,15439.27,1549.72,17046.88,175.15,1435.17,15786.86,5434.47,1768.44,19452.89,0.0,1621.07,17831.82,12,Rollforward batch 6,8200

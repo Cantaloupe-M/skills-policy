@@ -1,0 +1,53 @@
+{
+  "full": {
+    "label": "Full method",
+    "hypothesis": "Evidence gating, delayed qualification, and snapshot isolation together provide reliable evolution.",
+    "implemented": true,
+    "args": {"initialization": "scaffold", "min_occurrences": 2}
+  },
+  "m1": {
+    "label": "Without cross-task gate (m=1)",
+    "hypothesis": "Single-task support admits accidental procedures.",
+    "implemented": true,
+    "args": {"initialization": "scaffold", "min_occurrences": 1}
+  },
+  "success_only": {
+    "label": "Success-only",
+    "hypothesis": "Failure diagnostics are not useful for bottleneck discovery.",
+    "implemented": true,
+    "args": {"initialization": "scaffold", "min_occurrences": 2, "failure_evidence": "off"}
+  },
+  "failure_as_positive": {
+    "label": "Failure-as-positive",
+    "hypothesis": "Unresolved failure behavior should not directly become trusted capability.",
+    "implemented": false,
+    "args": {"initialization": "scaffold", "min_occurrences": 2},
+    "requires": "failure evidence policy switch"
+  },
+  "immediate_promotion": {
+    "label": "Immediate promotion",
+    "hypothesis": "Cross-task recurrence alone is insufficient for reliable deployment.",
+    "implemented": true,
+    "args": {"initialization": "scaffold", "min_occurrences": 2, "promotion": "immediate"}
+  },
+  "outcome_only": {
+    "label": "Outcome-only qualification",
+    "hypothesis": "Explicit policy consumption is needed to attribute a successful reuse.",
+    "implemented": true,
+    "args": {"initialization": "scaffold", "min_occurrences": 2, "qualification": "outcome-only"}
+  },
+  "online_update": {
+    "label": "Online update",
+    "hypothesis": "Same-batch exposure enables self-confirmation and increases false promotion.",
+    "implemented": false,
+    "args": {"initialization": "scaffold", "min_occurrences": 2},
+    "requires": "snapshot isolation switch"
+  },
+  "strict_cross_task": {
+    "label": "Strict cross-task qualification",
+    "hypothesis": "Same-task success can overestimate transfer reliability.",
+    "implemented": false,
+    "args": {"initialization": "scaffold", "min_occurrences": 2},
+    "requires": "strict cross-task promotion switch"
+  }
+}

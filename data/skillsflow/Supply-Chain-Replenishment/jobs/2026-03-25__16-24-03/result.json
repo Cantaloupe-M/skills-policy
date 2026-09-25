@@ -1,0 +1,37 @@
+{
+    "id": "6ceab1cb-e6f3-4b96-9a64-f652522a2aa3",
+    "started_at": "2026-03-25T16:24:03.390442",
+    "finished_at": "2026-03-25T16:24:50.096093",
+    "n_total_trials": 9,
+    "stats": {
+        "n_trials": 9,
+        "n_errors": 0,
+        "evals": {
+            "oracle__harbor_gdpval_21": {
+                "n_trials": 9,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "snack_dc_august_load_plan__gZYTZoD",
+                            "clinic_branch_transfer_gap__YNNdoe8",
+                            "household_route_tracker_refresh__MCFVuFZ",
+                            "frozen_meal_tracker_refresh__UxLrt6R",
+                            "beauty_zone_alias_gap__wnAetXq",
+                            "petcare_midmonth_pallet_gap__vtvSvL8",
+                            "harbor_gdpval_21__GWYonL2",
+                            "produce_lane_restock_gap__5z6gitJ",
+                            "bakery_weekly_commit_gap__Ayqi54J"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+assay_id,revision,status,active_labs
+CHEM-ION,1,draft,11
+CHEM-ION,2,approved,13
+CHEM-LIVER,1,approved,9
+IMMUNE-C3,1,rejected,7
+IMMUNE-C3,2,approved,8
+ENDO-TSH,1,draft,15
+INF-PCR,1,approved,6
+INF-PCR,2,approved,7
+TOX-SER,1,approved,7
+ARCHIVE-RSV,1,approved,3

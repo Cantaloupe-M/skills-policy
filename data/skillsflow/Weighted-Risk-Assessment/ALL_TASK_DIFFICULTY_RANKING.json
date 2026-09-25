@@ -1,0 +1,10 @@
+[
+  "weighted-cloud-reliability-calc",
+  "weighted-hospital-bedflow-calc",
+  "weighted-campus-energy-balance-calc",
+  "weighted-port-throughput-calc",
+  "api-sla-at-risk-calc",
+  "campus-budget-at-risk-calc",
+  "factory-output-at-risk-calc",
+  "hospital-capacity-at-risk-calc"
+]

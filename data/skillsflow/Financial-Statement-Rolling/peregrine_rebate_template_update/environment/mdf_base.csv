@@ -1,0 +1,4 @@
+row_key,status,partner,beginning_balance,jul_adds,jul_release,jul_ending_balance,aug_adds,aug_release,aug_ending_balance,sep_adds,sep_release,sep_ending_balance,oct_adds,oct_release,oct_ending_balance,term_months,comments,account_number
+MDF-02,open,Delta Media,0,6000,1500,4500,0,1500,3000,0,1500,1500,3000,1500,3000,6,Event credits,6125
+MDF-11,open,Fable Labs,0,3000,500,2500,0,500,2000,2000,750,3250,0,750,2500,6,Workshop series,6125
+MDF-99,superseded,Old Summit,0,1000,1000,0,0,0,0,0,0,0,0,0,0,1,Ignore status,6125

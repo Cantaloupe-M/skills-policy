@@ -1,0 +1,38 @@
+VAR=auto CFG=--psm 6
+Product: Viamin.€ 100mg,
+
+---
+VAR=auto CFG=--psm 4
+
+---
+VAR=auto CFG=--psm 11
+PHARMACY
+
+‘Vitamie.C 1060me
+
+MVE 1549
+
+---
+VAR=sharp CFG=--psm 6
+Product Vierin€ 100ims,
+
+---
+VAR=sharp CFG=--psm 4
+
+---
+VAR=sharp CFG=--psm 11
+6 1660mg
+
+---
+VAR=thresh CFG=--psm 6
+BRARMACY PRODUET
+Product Vilarin, 10009,
+
+---
+VAR=thresh CFG=--psm 4
+
+---
+VAR=thresh CFG=--psm 11
+&
+
+---

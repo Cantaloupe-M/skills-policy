@@ -1,0 +1,21 @@
+{
+  "fund_query_current": "bridgewater associates",
+  "quarter_current": "2025-q3",
+  "fund_query_baseline": "bridgewater associates",
+  "quarter_baseline": "2025-q2",
+  "top4_increased_cusips": [
+    "512807306",
+    "00724F101",
+    "98138H101",
+    "75734B100"
+  ],
+  "top3_decreased_cusips": [
+    "67066G104",
+    "02079K305",
+    "697435105"
+  ],
+  "new_positions_top2": [
+    "75734B100",
+    "770700102"
+  ]
+}

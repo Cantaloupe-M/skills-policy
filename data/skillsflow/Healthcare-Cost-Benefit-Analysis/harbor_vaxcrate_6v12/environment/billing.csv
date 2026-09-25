@@ -1,0 +1,11 @@
+campaign_label,status,cycle_tag,payment_per_dispatch_per_clinic_usd
+ALPHA FLU,active,2026-Q2,13.10
+ALPHA FLU,active,2026-Q4,14.00
+BETA RSV,active,2026-Q3,13.80
+Delta Travel,active,2026-Q2,17.60
+EPS School,active,2026-Q1,12.90
+School EPS,active,2026-Q4,13.70
+Gamma Lane,inactive,2026-Q4,12.00
+Gamma Lane,active,2026-Q2,12.80
+Zeta Rural,active,2026-Q3,16.20
+ARCH HEPA,active,2026-Q1,9.00

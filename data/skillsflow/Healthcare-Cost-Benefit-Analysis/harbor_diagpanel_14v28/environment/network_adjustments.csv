@@ -1,0 +1,4 @@
+network_tier,network_adjustment_per_run_per_lab_usd
+metro,1.40
+regional,2.10
+rural,0.80

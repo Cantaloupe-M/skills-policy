@@ -1,0 +1,115 @@
+{
+  "service_clusters": [
+    {
+      "cluster_name": "core",
+      "panels": [
+        {
+          "panel_code": "DP-ALPHA",
+          "panel_name": "Alpha Chem Core",
+          "alias_labels": [
+            "ALPHA CORE",
+            "Alpha-Core"
+          ],
+          "reagent_cost_per_1000_tests_usd": 118.4,
+          "network_tier": "metro",
+          "shipper_class": "ambient_lab",
+          "tests_per_lab_per_run_14_day": 34,
+          "tests_per_lab_per_run_28_day": 68,
+          "default_active_labs": 15,
+          "analysis_mode": "review"
+        },
+        {
+          "panel_code": "DP-BETA",
+          "panel_name": "Beta Endocrine",
+          "alias_labels": [
+            "BETA ENDO"
+          ],
+          "reagent_cost_per_1000_tests_usd": 124.7,
+          "network_tier": "metro",
+          "shipper_class": "ambient_lab",
+          "tests_per_lab_per_run_14_day": 28,
+          "tests_per_lab_per_run_28_day": 56,
+          "default_active_labs": 12,
+          "analysis_mode": "review"
+        },
+        {
+          "panel_code": "DP-ARCH",
+          "panel_name": "Archive Coag",
+          "alias_labels": [
+            "ARCH COAG"
+          ],
+          "reagent_cost_per_1000_tests_usd": 100.0,
+          "network_tier": "rural",
+          "shipper_class": "cold_lab",
+          "tests_per_lab_per_run_14_day": 20,
+          "tests_per_lab_per_run_28_day": 40,
+          "default_active_labs": 5,
+          "analysis_mode": "archive"
+        }
+      ]
+    },
+    {
+      "cluster_name": "specialty",
+      "panels": [
+        {
+          "panel_code": "DP-DELTA",
+          "panel_name": "Delta Immunology",
+          "alias_labels": [
+            "Delta Immune"
+          ],
+          "reagent_cost_per_1000_tests_usd": 139.2,
+          "network_tier": "regional",
+          "shipper_class": "cold_lab",
+          "tests_per_lab_per_run_14_day": 22,
+          "tests_per_lab_per_run_28_day": 44,
+          "default_active_labs": 9,
+          "analysis_mode": "review"
+        },
+        {
+          "panel_code": "DP-EPS",
+          "panel_name": "Epsilon Cardio",
+          "alias_labels": [
+            "EPS CARDIO",
+            "Epsilon-C"
+          ],
+          "reagent_cost_per_1000_tests_usd": 131.5,
+          "network_tier": "rural",
+          "shipper_class": "cold_lab",
+          "tests_per_lab_per_run_14_day": 24,
+          "tests_per_lab_per_run_28_day": 48,
+          "default_active_labs": 10,
+          "analysis_mode": "review"
+        },
+        {
+          "panel_code": "DP-GAMMA",
+          "panel_name": "Gamma Micro Fast",
+          "alias_labels": [
+            "GammaFast",
+            "GAMMA FAST"
+          ],
+          "reagent_cost_per_1000_tests_usd": 146.8,
+          "network_tier": "metro",
+          "shipper_class": "frozen_lab",
+          "tests_per_lab_per_run_14_day": 18,
+          "tests_per_lab_per_run_28_day": 36,
+          "default_active_labs": 8,
+          "analysis_mode": "review"
+        },
+        {
+          "panel_code": "DP-ZETA",
+          "panel_name": "Zeta Tox Extended",
+          "alias_labels": [
+            "ZETA TOX"
+          ],
+          "reagent_cost_per_1000_tests_usd": 153.9,
+          "network_tier": "satellite",
+          "shipper_class": "frozen_lab",
+          "tests_per_lab_per_run_14_day": 16,
+          "tests_per_lab_per_run_28_day": 32,
+          "default_active_labs": 7,
+          "analysis_mode": "review"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "input_file": "Incident-Briefing.pptx",
+  "output_file": "Incident-Briefing_cleaned.pptx",
+  "summary_mode": "replace_existing",
+  "summary_title": "Evidence Log",
+  "summary_slide_number": 7,
+  "output_slide_count": 7,
+  "style": {
+    "font": "Arial",
+    "size": 1400,
+    "color": "6B7280",
+    "bold": false,
+    "italic": false
+  },
+  "slides": [
+    {
+      "slide_number": 2,
+      "caption_raw": "Loading Dock Camera 02",
+      "caption_clean": "Camera 02 - Loading Dock",
+      "note": "Timestamp: 21:14:08"
+    },
+    {
+      "slide_number": 3,
+      "caption_raw": "North Entry Badge Reader",
+      "caption_clean": "Badge Reader - North Entry",
+      "note": "Timestamp: 21:17:42"
+    },
+    {
+      "slide_number": 4,
+      "caption_raw": "Camera 02 - Loading Dock",
+      "caption_clean": "Camera 02 - Loading Dock",
+      "note": "Timestamp: 21:19:11"
+    },
+    {
+      "slide_number": 5,
+      "caption_raw": "South Hall Elevator Lobby",
+      "caption_clean": "Elevator Lobby - South Hall",
+      "note": "Timestamp: 21:22:57"
+    },
+    {
+      "slide_number": 6,
+      "caption_raw": "Roof Access Stairwell",
+      "caption_clean": "Stairwell - Roof Access",
+      "note": "Timestamp: 21:28:03"
+    }
+  ],
+  "alias_map_file": "evidence_caption_map.csv"
+}

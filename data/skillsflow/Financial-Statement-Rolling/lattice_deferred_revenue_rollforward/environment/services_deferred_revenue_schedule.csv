@@ -1,0 +1,5 @@
+entity,beginning_balance,may_adds,may_release,may_ending_balance,jun_adds,jun_release,jun_ending_balance,jul_adds,jul_release,jul_ending_balance,aug_adds,aug_release,aug_ending_balance,term_months,comments,account_number
+Elm Advisory,0.0,15000,5000,10000.0,0,5000,5000.0,0,5000,0.0,5000,5000,0.0,4,Quarterly enablement,2310
+Foundry Launch,0.0,0,0,0.0,18000,6000,12000.0,0,6000,6000.0,0,6000,0.0,3,Implementation kickoff,2310
+Grove Migration,0.0,9000,2250,6750.0,0,2250,4500.0,0,2250,2250.0,0,2250,0.0,4,Migration bundle,2310
+Harbor Ops,0.0,0,0,0.0,0,0,0.0,12000,4000,8000.0,0,4000,4000.0,3,Go-live support,2310

@@ -1,0 +1,4 @@
+entity,beginning_balance,sep_adds,sep_release,sep_ending_balance,oct_adds,oct_release,oct_ending_balance,nov_adds,nov_release,nov_ending_balance,term_months,comments,account_number
+Plant A payroll,0.0,28000,26000,2000.0,28500,28000,2500.0,29000,28500,3000.0,3,Factory payroll timing,2105
+Plant B payroll,0.0,16000,15000,1000.0,16500,16000,1500.0,17000,16500,2000.0,3,Factory payroll timing,2105
+Benefits tax,0.0,4500,4000,500.0,4600,4500,600.0,4700,4600,700.0,3,Payroll tax accrual,2105

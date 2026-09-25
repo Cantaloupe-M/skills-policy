@@ -1,0 +1,22 @@
+version = "1.0"
+
+[metadata]
+author_name = "Generated"
+author_email = "generated@benchmark.dev"
+difficulty = "medium-hard"
+category = "data-analysis"
+tags = ["excel", "pivot-tables", "pdf", "aggregation", "data-integration", "csv", "schema-mapping"]
+required_skills = ["xlsx", "pdf"]
+
+[verifier]
+timeout_sec = 300.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 4096
+storage_mb = 10240
+docker_image = "harbor-prebuilt:task-0e507cd4792dadc2"

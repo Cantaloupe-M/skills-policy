@@ -1,0 +1,100 @@
+{
+  "regions": [
+    {
+      "region": "north",
+      "campaigns": [
+        {
+          "campaign_id": "VAX-ALPHA",
+          "campaign_name": "Alpha Flu Mobile",
+          "alias_labels": [
+            "ALPHA FLU",
+            "Alpha-FLU"
+          ],
+          "drug_cost_per_1000_doses_usd": 94.2,
+          "doses_per_day": 41,
+          "crate_tier": "portable",
+          "default_active_clinics": 16,
+          "analysis_flag": "review"
+        },
+        {
+          "campaign_id": "VAX-BETA",
+          "campaign_name": "Beta Senior RSV",
+          "alias_labels": [
+            "BETA RSV"
+          ],
+          "drug_cost_per_1000_doses_usd": 112.8,
+          "doses_per_day": 36,
+          "crate_tier": "portable",
+          "default_active_clinics": 11,
+          "analysis_flag": "review"
+        },
+        {
+          "campaign_id": "VAX-ARCH",
+          "campaign_name": "Archive Hep A",
+          "alias_labels": [
+            "ARCH HEPA"
+          ],
+          "drug_cost_per_1000_doses_usd": 90.0,
+          "doses_per_day": 28,
+          "crate_tier": "portable",
+          "default_active_clinics": 5,
+          "analysis_flag": "archive"
+        }
+      ]
+    },
+    {
+      "region": "south",
+      "campaigns": [
+        {
+          "campaign_id": "VAX-DELTA",
+          "campaign_name": "Delta Travel Bundle",
+          "alias_labels": [
+            "Delta Travel"
+          ],
+          "drug_cost_per_1000_doses_usd": 128.4,
+          "doses_per_day": 33,
+          "crate_tier": "secure",
+          "default_active_clinics": 9,
+          "analysis_flag": "review"
+        },
+        {
+          "campaign_id": "VAX-EPS",
+          "campaign_name": "Epsilon School Drive",
+          "alias_labels": [
+            "EPS School",
+            "School EPS"
+          ],
+          "drug_cost_per_1000_doses_usd": 86.3,
+          "doses_per_day": 48,
+          "crate_tier": "secure",
+          "default_active_clinics": 18,
+          "analysis_flag": "review"
+        },
+        {
+          "campaign_id": "VAX-GAMMA",
+          "campaign_name": "Gamma Booster Lane",
+          "alias_labels": [
+            "Gamma Lane"
+          ],
+          "drug_cost_per_1000_doses_usd": 101.7,
+          "doses_per_day": 38,
+          "crate_tier": "portable",
+          "default_active_clinics": 13,
+          "analysis_flag": "review"
+        },
+        {
+          "campaign_id": "VAX-ZETA",
+          "campaign_name": "Zeta Rural Tour",
+          "alias_labels": [
+            "Zeta Rural"
+          ],
+          "drug_cost_per_1000_doses_usd": 119.6,
+          "doses_per_day": 29,
+          "crate_tier": "secure",
+          "default_active_clinics": 7,
+          "analysis_flag": "review"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Key,Name,Description
+TSH,Thyroid Stimulating Hormone,Conventional reporting range for Thyroid Stimulating Hormone.
+Free_T4,Free Thyroxine,Conventional reporting range for Free Thyroxine.
+Free_T3,Free Triiodothyronine,Conventional reporting range for Free Triiodothyronine.
+Total_T4,Total Thyroxine,Conventional reporting range for Total Thyroxine.
+Total_T3,Total Triiodothyronine,Conventional reporting range for Total Triiodothyronine.
+Anti_TPO,Thyroid Peroxidase Antibody,Conventional reporting range for Thyroid Peroxidase Antibody.
+Thyroglobulin,Thyroglobulin,Conventional reporting range for Thyroglobulin.
+Thyroglobulin_Antibody,Thyroglobulin Antibody,Conventional reporting range for Thyroglobulin Antibody.
+Calcium,Serum Calcium,Conventional reporting range for Serum Calcium.
+Ionized_Calcium,Ionized Calcium,Conventional reporting range for Ionized Calcium.
+Phosphorus,Phosphorus,Conventional reporting range for Phosphorus.
+Magnesium,Magnesium,Conventional reporting range for Magnesium.
+PTH,Parathyroid Hormone,Conventional reporting range for Parathyroid Hormone.
+Vitamin_D_25OH,25-Hydroxyvitamin D,Conventional reporting range for 25-Hydroxyvitamin D.
+Calcitonin,Calcitonin,Conventional reporting range for Calcitonin.
+Creatinine,Creatinine,Conventional reporting range for Creatinine.

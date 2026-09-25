@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /tests
+plugins: json-ctrf-0.3.5
+collecting ... collected 7 items
+
+../tests/test_outputs.py::test_sheet_names PASSED                        [ 14%]
+../tests/test_outputs.py::test_defined_names PASSED                      [ 28%]
+../tests/test_outputs.py::test_summary_structure_and_formulas PASSED     [ 42%]
+../tests/test_outputs.py::test_roster_and_assumptions_migration PASSED   [ 57%]
+../tests/test_outputs.py::test_calc_sheet_formulas[EE Calcs (Current)-Yr1-None] PASSED [ 71%]
+../tests/test_outputs.py::test_calc_sheet_formulas[EE Calcs (Yr+1)-Yr2-'EE Calcs (Current)'] PASSED [ 85%]
+../tests/test_outputs.py::test_calc_sheet_formulas[EE Calcs (Yr+2)-Yr3-'EE Calcs (Yr+1)'] PASSED [100%]
+
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED ../tests/test_outputs.py::test_sheet_names
+PASSED ../tests/test_outputs.py::test_defined_names
+PASSED ../tests/test_outputs.py::test_summary_structure_and_formulas
+PASSED ../tests/test_outputs.py::test_roster_and_assumptions_migration
+PASSED ../tests/test_outputs.py::test_calc_sheet_formulas[EE Calcs (Current)-Yr1-None]
+PASSED ../tests/test_outputs.py::test_calc_sheet_formulas[EE Calcs (Yr+1)-Yr2-'EE Calcs (Current)']
+PASSED ../tests/test_outputs.py::test_calc_sheet_formulas[EE Calcs (Yr+2)-Yr3-'EE Calcs (Yr+1)']
+============================== 7 passed in 0.15s ===============================

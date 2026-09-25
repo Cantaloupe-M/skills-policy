@@ -1,0 +1,42 @@
+[
+  {
+    "packet_page_number": 3,
+    "contractor_name": "Apex Field Ops",
+    "billed_amount": 2900.0,
+    "payment_account": "BAD-AF",
+    "work_order_id": "WO-8803",
+    "reason": "Account Mismatch"
+  },
+  {
+    "packet_page_number": 4,
+    "contractor_name": "Harbor Electric LLC",
+    "billed_amount": 2750.0,
+    "payment_account": "ACC-HE-4",
+    "work_order_id": "WO-8806",
+    "reason": "Invalid Work Order"
+  },
+  {
+    "packet_page_number": 5,
+    "contractor_name": "Metro Chill Partners",
+    "billed_amount": 4300.0,
+    "payment_account": "ACC-MC-9",
+    "work_order_id": "WO-8805",
+    "reason": "Unknown Contractor"
+  },
+  {
+    "packet_page_number": 6,
+    "contractor_name": "Summit Cooling Company",
+    "billed_amount": 4400.0,
+    "payment_account": "ACC-SC-5",
+    "work_order_id": "WO-8805",
+    "reason": "Amount Mismatch"
+  },
+  {
+    "packet_page_number": 7,
+    "contractor_name": "Northwind Services",
+    "billed_amount": 6550.0,
+    "payment_account": "ACC-NW-1",
+    "work_order_id": "WO-8807",
+    "reason": "Contractor Mismatch"
+  }
+]

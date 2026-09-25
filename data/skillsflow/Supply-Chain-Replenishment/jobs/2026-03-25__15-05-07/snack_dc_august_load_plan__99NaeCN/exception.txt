@@ -1,0 +1,117 @@
+Traceback (most recent call last):
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py", line 481, in run
+    await self._setup_environment()
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py", line 214, in _setup_environment
+    await self._start_environment_with_retry()
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/tenacity/_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/tenacity/__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "/Users/zhangziao/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Users/zhangziao/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py", line 226, in _start_environment_with_retry
+    await asyncio.wait_for(
+    ...<4 lines>...
+    )
+  File "/Users/zhangziao/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker.py", line 264, in start
+    await self._run_docker_compose_command(["build"])
+  File "/Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker.py", line 241, in _run_docker_compose_command
+    raise RuntimeError(
+    ...<5 lines>...
+    )
+RuntimeError: Docker compose command failed for environment snack_dc_august_load_plan. Command: docker compose -p snack-dc-august-load-plan-99naecn --project-directory /Users/zhangziao/Documents/标注2准备/harbor_gdpval_21/snack_dc_august_load_plan/environment -f /Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-base.yaml -f /Users/zhangziao/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml build. Return code: 1. Stdout: #1 [internal] load local bake definitions
+#1 reading from stdin 687B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile:
+#2 transferring dockerfile: 276B done
+#2 DONE 0.8s
+
+#3 [1/5] FROM docker.io/skillevlove/harbor-cli-base:openhands-ubuntu24.04
+#3 CACHED
+
+#4 [internal] load metadata for docker.io/skillevlove/harbor-cli-base:openhands-ubuntu24.04
+#4 DONE 0.0s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 6.27kB done
+#6 DONE 0.0s
+
+#7 [2/4] RUN python3 -m pip install --no-cache-dir openpyxl==3.1.5
+#7 0.292 error: externally-managed-environment
+#7 0.292 
+#7 0.292 × This environment is externally managed
+#7 0.292 ╰─> To install Python packages system-wide, try apt install
+#7 0.292     python3-xyz, where xyz is the package you are trying to
+#7 0.292     install.
+#7 0.292     
+#7 0.292     If you wish to install a non-Debian-packaged Python package,
+#7 0.292     create a virtual environment using python3 -m venv path/to/venv.
+#7 0.292     Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+#7 0.292     sure you have python3-full installed.
+#7 0.292     
+#7 0.292     If you wish to install a non-Debian packaged Python application,
+#7 0.292     it may be easiest to use pipx install xyz, which will manage a
+#7 0.292     virtual environment for you. Make sure you have pipx installed.
+#7 0.292     
+#7 0.292     See /usr/share/doc/python3.12/README.venv for more information.
+#7 0.292 
+#7 0.292 note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+#7 0.292 hint: See PEP 668 for the detailed specification.
+#7 ERROR: process "/bin/bash -o pipefail -c python3 -m pip install --no-cache-dir openpyxl==3.1.5" did not complete successfully: exit code: 1
+------
+ > [2/4] RUN python3 -m pip install --no-cache-dir openpyxl==3.1.5:
+0.292     sure you have python3-full installed.
+0.292     
+0.292     If you wish to install a non-Debian packaged Python application,
+0.292     it may be easiest to use pipx install xyz, which will manage a
+0.292     virtual environment for you. Make sure you have pipx installed.
+0.292     
+0.292     See /usr/share/doc/python3.12/README.venv for more information.
+0.292 
+0.292 note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+0.292 hint: See PEP 668 for the detailed specification.
+------
+Dockerfile:5
+
+--------------------
+
+   3 |     ENV DEBIAN_FRONTEND=noninteractive
+
+   4 |     
+
+   5 | >>> RUN python3 -m pip install --no-cache-dir openpyxl==3.1.5
+
+   6 |     COPY Snack_DC_August_Balancing.xlsx /root/Snack_DC_August_Balancing.xlsx
+
+   7 |     WORKDIR /root
+
+--------------------
+
+failed to solve: process "/bin/bash -o pipefail -c python3 -m pip install --no-cache-dir openpyxl==3.1.5" did not complete successfully: exit code: 1
+
+. Stderr: None. 

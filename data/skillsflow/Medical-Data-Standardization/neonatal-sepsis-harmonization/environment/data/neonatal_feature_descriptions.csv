@@ -1,0 +1,14 @@
+Key,Name,Description
+CRP_mg_L_or_mg_dL,C-Reactive Protein,Conventional reporting range for C-Reactive Protein.
+Serum_Creat_umol_or_mgdl,Creatinine,Conventional reporting range for Creatinine.
+BUN_mmol_or_mgdl,Blood Urea Nitrogen,Conventional reporting range for Blood Urea Nitrogen.
+Glucose_mmol_or_mgdl,Glucose,Conventional reporting range for Glucose.
+Total_Bili_umol_or_mgdl,Total Bilirubin,Conventional reporting range for Total Bilirubin.
+Direct_Bili_umol_or_mgdl,Direct Bilirubin,Conventional reporting range for Direct Bilirubin.
+Lactate_mgdl_or_mmol,Lactate,Conventional reporting range for Lactate.
+Platelet_Count,Platelet Count,Conventional reporting range for Platelet Count.
+WBC_Count,White Blood Cell Count,Conventional reporting range for White Blood Cell Count.
+Hemoglobin_gL_or_gdL,Hemoglobin,Conventional reporting range for Hemoglobin.
+Sodium,Sodium,Conventional reporting range for Sodium.
+Potassium,Potassium,Conventional reporting range for Potassium.
+pCO2_kPa_or_mmHg,Arterial pCO2,Conventional reporting range for Arterial pCO2.

@@ -1,0 +1,9 @@
+Key,Name,Description
+BNP,BNP,Conventional reporting range for BNP.
+NT_proBNP,NT-proBNP,Conventional reporting range for NT-proBNP.
+Troponin_I,Troponin I,Conventional reporting range for Troponin I.
+Troponin_T,Troponin T,Conventional reporting range for Troponin T.
+Creatinine,Creatinine,Conventional reporting range for Creatinine.
+Sodium,Sodium,Conventional reporting range for Sodium.
+Potassium,Potassium,Conventional reporting range for Potassium.
+Magnesium,Magnesium,Conventional reporting range for Magnesium.

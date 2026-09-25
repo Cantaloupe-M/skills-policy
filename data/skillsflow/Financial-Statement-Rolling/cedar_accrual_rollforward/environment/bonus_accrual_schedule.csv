@@ -1,0 +1,4 @@
+entity,beginning_balance,sep_adds,sep_release,sep_ending_balance,oct_adds,oct_release,oct_ending_balance,nov_adds,nov_release,nov_ending_balance,term_months,comments,account_number
+Corporate bonus pool,0.0,12000,2000,10000.0,13000,2500,20500.0,14000,3000,31500.0,6,Annual incentive accrual,2110
+Sales SPIFF plan,0.0,5000,1000,4000.0,5500,1500,8000.0,5200,1800,11400.0,4,Quarterly SPIFF program,2110
+Retention awards,0.0,3000,0,3000.0,0,500,2500.0,6000,1000,7500.0,6,People ops retention plan,2110

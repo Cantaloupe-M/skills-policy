@@ -1,0 +1,364 @@
+{
+  "panels": [
+    {
+      "sample_id": "1",
+      "status": "final",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "7,5412",
+          "pCO2_Arterial": "51.827",
+          "pO2_Arterial": "176.89292",
+          "Bicarbonate": "12.2380"
+        },
+        "metabolic": {
+          "Lactate": "",
+          "Glucose": "412,2128",
+          "Magnesium": "5.029"
+        }
+      },
+      "notes": {
+        "comment": "keep only final records"
+      }
+    },
+    {
+      "sample_id": "1",
+      "status": "draft",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "0.000",
+          "pCO2_Arterial": "0.000",
+          "pO2_Arterial": "0.000",
+          "Bicarbonate": "0.000"
+        },
+        "metabolic": {
+          "Lactate": "0.000",
+          "Glucose": "0.000",
+          "Magnesium": "0.000"
+        }
+      },
+      "notes": {
+        "comment": "draft row should be ignored"
+      }
+    },
+    {
+      "sample_id": "2",
+      "status": "final",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "7.010",
+          "pCO2_Arterial": "nan",
+          "pO2_Arterial": "371.6217",
+          "Bicarbonate": "2.3955e+01"
+        },
+        "metabolic": {
+          "Lactate": "13,0262",
+          "Glucose": "522.232",
+          "Magnesium": "3.96932"
+        }
+      },
+      "notes": {
+        "comment": "keep only final records"
+      }
+    },
+    {
+      "sample_id": "2",
+      "status": "draft",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "0.000",
+          "pCO2_Arterial": "0.000",
+          "pO2_Arterial": "0.000",
+          "Bicarbonate": "0.000"
+        },
+        "metabolic": {
+          "Lactate": "0.000",
+          "Glucose": "0.000",
+          "Magnesium": "0.000"
+        }
+      },
+      "notes": {
+        "comment": "draft row should be ignored"
+      }
+    },
+    {
+      "sample_id": "3",
+      "status": "final",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "7.00508",
+          "pCO2_Arterial": "10.1975",
+          "pO2_Arterial": "4.6536e+01",
+          "Bicarbonate": "9,3447"
+        },
+        "metabolic": {
+          "Lactate": "1.131",
+          "Glucose": "19.08674",
+          "Magnesium": "0.5813"
+        }
+      },
+      "notes": {
+        "comment": "keep only final records"
+      }
+    },
+    {
+      "sample_id": "3",
+      "status": "draft",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "0.000",
+          "pCO2_Arterial": "0.000",
+          "pO2_Arterial": "0.000",
+          "Bicarbonate": "0.000"
+        },
+        "metabolic": {
+          "Lactate": "0.000",
+          "Glucose": "0.000",
+          "Magnesium": "0.000"
+        }
+      },
+      "notes": {
+        "comment": "draft row should be ignored"
+      }
+    },
+    {
+      "sample_id": "4",
+      "status": "final",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "7.2611",
+          "pCO2_Arterial": "5.8843e+01",
+          "pO2_Arterial": "208,2203",
+          "Bicarbonate": "13.784"
+        },
+        "metabolic": {
+          "Lactate": "13.57527",
+          "Glucose": "433.3472",
+          "Magnesium": "3.0335e+00"
+        }
+      },
+      "notes": {
+        "comment": "keep only final records"
+      }
+    },
+    {
+      "sample_id": "4",
+      "status": "draft",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "0.000",
+          "pCO2_Arterial": "0.000",
+          "pO2_Arterial": "0.000",
+          "Bicarbonate": "0.000"
+        },
+        "metabolic": {
+          "Lactate": "0.000",
+          "Glucose": "0.000",
+          "Magnesium": "0.000"
+        }
+      },
+      "notes": {
+        "comment": "draft row should be ignored"
+      }
+    },
+    {
+      "sample_id": "5",
+      "status": "final",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "7.4013e+00",
+          "pCO2_Arterial": "73,5976",
+          "pO2_Arterial": "189.807",
+          "Bicarbonate": "21.24779"
+        },
+        "metabolic": {
+          "Lactate": "3.1182",
+          "Glucose": "1.5162e+02",
+          "Magnesium": "6,6720"
+        }
+      },
+      "notes": {
+        "comment": "keep only final records"
+      }
+    },
+    {
+      "sample_id": "5",
+      "status": "draft",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "0.000",
+          "pCO2_Arterial": "0.000",
+          "pO2_Arterial": "0.000",
+          "Bicarbonate": "0.000"
+        },
+        "metabolic": {
+          "Lactate": "0.000",
+          "Glucose": "0.000",
+          "Magnesium": "0.000"
+        }
+      },
+      "notes": {
+        "comment": "draft row should be ignored"
+      }
+    },
+    {
+      "sample_id": "6",
+      "status": "final",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "7,5197",
+          "pCO2_Arterial": "9.954",
+          "pO2_Arterial": "15.22621",
+          "Bicarbonate": "24.2592"
+        },
+        "metabolic": {
+          "Lactate": "7.8306e-01",
+          "Glucose": "10,8109",
+          "Magnesium": "2.856"
+        }
+      },
+      "notes": {
+        "comment": "keep only final records"
+      }
+    },
+    {
+      "sample_id": "6",
+      "status": "draft",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "0.000",
+          "pCO2_Arterial": "0.000",
+          "pO2_Arterial": "0.000",
+          "Bicarbonate": "0.000"
+        },
+        "metabolic": {
+          "Lactate": "0.000",
+          "Glucose": "0.000",
+          "Magnesium": "0.000"
+        }
+      },
+      "notes": {
+        "comment": "draft row should be ignored"
+      }
+    },
+    {
+      "sample_id": "7",
+      "status": "final",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "6.944",
+          "pCO2_Arterial": "26.42617",
+          "pO2_Arterial": "177.6387",
+          "Bicarbonate": "1.1226e+01"
+        },
+        "metabolic": {
+          "Lactate": "7,1129",
+          "Glucose": "412.238",
+          "Magnesium": "4.54052"
+        }
+      },
+      "notes": {
+        "comment": "keep only final records"
+      }
+    },
+    {
+      "sample_id": "7",
+      "status": "draft",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "0.000",
+          "pCO2_Arterial": "0.000",
+          "pO2_Arterial": "0.000",
+          "Bicarbonate": "0.000"
+        },
+        "metabolic": {
+          "Lactate": "0.000",
+          "Glucose": "0.000",
+          "Magnesium": "0.000"
+        }
+      },
+      "notes": {
+        "comment": "draft row should be ignored"
+      }
+    },
+    {
+      "sample_id": "8",
+      "status": "final",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "7.49715",
+          "pCO2_Arterial": "49.2980",
+          "pO2_Arterial": "1.1320e+02",
+          "Bicarbonate": "20,6660"
+        },
+        "metabolic": {
+          "Lactate": "2.183",
+          "Glucose": "427.15736",
+          "Magnesium": "2.2715"
+        }
+      },
+      "notes": {
+        "comment": "keep only final records"
+      }
+    },
+    {
+      "sample_id": "8",
+      "status": "draft",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "0.000",
+          "pCO2_Arterial": "0.000",
+          "pO2_Arterial": "0.000",
+          "Bicarbonate": "0.000"
+        },
+        "metabolic": {
+          "Lactate": "0.000",
+          "Glucose": "0.000",
+          "Magnesium": "0.000"
+        }
+      },
+      "notes": {
+        "comment": "draft row should be ignored"
+      }
+    },
+    {
+      "sample_id": "9",
+      "status": "final",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "7.2065",
+          "pCO2_Arterial": "6.2189e+00",
+          "pO2_Arterial": "47,9347",
+          "Bicarbonate": "10.794"
+        },
+        "metabolic": {
+          "Lactate": "0.62191",
+          "Glucose": "14.1046",
+          "Magnesium": "1.8776e+00"
+        }
+      },
+      "notes": {
+        "comment": "keep only final records"
+      }
+    },
+    {
+      "sample_id": "9",
+      "status": "draft",
+      "measurements": {
+        "acid_base": {
+          "pH_Arterial": "0.000",
+          "pCO2_Arterial": "0.000",
+          "pO2_Arterial": "0.000",
+          "Bicarbonate": "0.000"
+        },
+        "metabolic": {
+          "Lactate": "0.000",
+          "Glucose": "0.000",
+          "Magnesium": "0.000"
+        }
+      },
+      "notes": {
+        "comment": "draft row should be ignored"
+      }
+    }
+  ]
+}

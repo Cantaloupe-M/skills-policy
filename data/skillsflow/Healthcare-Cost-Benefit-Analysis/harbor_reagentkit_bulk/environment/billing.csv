@@ -1,0 +1,14 @@
+assay_label,effective_month,is_active,payment_per_run_per_lab_usd
+ION BAL PANEL,2026-01,true,16.20
+Ion Panel,2026-03,true,17.40
+LIVER PANEL,2026-02,true,21.80
+Liver Stable,2026-04,false,22.30
+Complement-3,2025-12,true,26.50
+C3 Assay,2026-05,true,27.10
+TSH Rapid,2026-01,true,15.60
+Rapid-TSH,2026-04,true,16.40
+Resp PCR Mini,2026-02,true,28.10
+RespMini PCR,2026-06,true,29.40
+SerumTox,2026-01,true,20.90
+TOX SCREEN,2026-03,true,21.50
+ARCHIVE RSV,2026-01,true,11.00

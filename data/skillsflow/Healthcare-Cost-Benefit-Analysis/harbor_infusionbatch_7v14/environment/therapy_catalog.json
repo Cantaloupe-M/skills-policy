@@ -1,0 +1,94 @@
+{
+  "service_lines": [
+    {
+      "service_line": "pulmonary",
+      "therapies": [
+        {
+          "therapy_code": "HINF-ALPHA",
+          "therapy_name": "AlphaNeb",
+          "aliases": [
+            "ALPHA-NEB",
+            "Alpha Neb"
+          ],
+          "drug_cost_per_1000_mg_usd": 42.4,
+          "dose_mg_per_day": 52,
+          "bag_size_ml": 250,
+          "include_in_review": true
+        },
+        {
+          "therapy_code": "HINF-BETA",
+          "therapy_name": "BetaFlow",
+          "aliases": [
+            "BETA FLOW"
+          ],
+          "drug_cost_per_1000_mg_usd": 38.6,
+          "dose_mg_per_day": 47,
+          "bag_size_ml": 250,
+          "include_in_review": true
+        },
+        {
+          "therapy_code": "HINF-OMEGA",
+          "therapy_name": "OmegaReserve",
+          "aliases": [
+            "OMEGA RESERVE"
+          ],
+          "drug_cost_per_1000_mg_usd": 60.0,
+          "dose_mg_per_day": 71,
+          "bag_size_ml": 500,
+          "include_in_review": false
+        }
+      ]
+    },
+    {
+      "service_line": "immunology",
+      "therapies": [
+        {
+          "therapy_code": "HINF-DELTA",
+          "therapy_name": "DeltaRelief",
+          "aliases": [
+            "Delta Relief"
+          ],
+          "drug_cost_per_1000_mg_usd": 47.9,
+          "dose_mg_per_day": 58,
+          "bag_size_ml": 250,
+          "include_in_review": true
+        },
+        {
+          "therapy_code": "HINF-EPS",
+          "therapy_name": "EpsilonCare",
+          "aliases": [
+            "EPSILON CARE",
+            "Epsilon-Care"
+          ],
+          "drug_cost_per_1000_mg_usd": 62.3,
+          "dose_mg_per_day": 66,
+          "bag_size_ml": 500,
+          "include_in_review": true
+        },
+        {
+          "therapy_code": "HINF-GAMMA",
+          "therapy_name": "GammaSure",
+          "aliases": [
+            "GAMMA SURE",
+            "GammaSure Infusion"
+          ],
+          "drug_cost_per_1000_mg_usd": 55.2,
+          "dose_mg_per_day": 61,
+          "bag_size_ml": 500,
+          "include_in_review": true
+        },
+        {
+          "therapy_code": "HINF-ZETA",
+          "therapy_name": "ZetaPulse",
+          "aliases": [
+            "Zeta Pulse"
+          ],
+          "drug_cost_per_1000_mg_usd": 51.7,
+          "dose_mg_per_day": 73,
+          "bag_size_ml": 1000,
+          "include_in_review": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+version = "1.0"
+
+[metadata]
+author_name = "Codex Task Generator"
+author_email = "noreply@example.com"
+difficulty = "medium"
+category = "cloud-finops"
+tags = ["excel", "capacity", "reconciliation", "rollforward", "cloud-ops"]
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 4096
+storage_mb = 10240
+docker_image = "harbor-prebuilt:task-41401710e4171ae1"

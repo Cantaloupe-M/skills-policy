@@ -1,0 +1,21 @@
+version = "1.0"
+
+[metadata]
+author_name = "Catpaw"
+author_email = "catpaw@example.com"
+difficulty = "hard"
+category = "supply-chain"
+tags = ["inventory", "excel", "replenishment", "logistics"]
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 4096
+storage_mb = 10240
+docker_image = "harbor-prebuilt:task-5874937fb2f3d8ff"

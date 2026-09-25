@@ -1,0 +1,6 @@
+shipment_ref,expected_charge,carrier_id,record_state
+SH-7101,820.0,CR901,approved
+SH-7102,915.0,CR902,approved
+SH-7103,730.0,CR903,approved
+SH-7104,1200.0,CR904,draft
+SH-7105,640.0,CR905,approved

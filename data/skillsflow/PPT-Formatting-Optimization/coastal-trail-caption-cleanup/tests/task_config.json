@@ -1,0 +1,42 @@
+{
+  "input_file": "Coastal-Trail-Guide.pptx",
+  "output_file": "Coastal-Trail-Guide_cleaned.pptx",
+  "summary_mode": "append",
+  "summary_title": "Trail Stops",
+  "summary_slide_number": 7,
+  "output_slide_count": 7,
+  "style": {
+    "font": "Arial",
+    "size": 1500,
+    "color": "5F675E",
+    "bold": false,
+    "italic": false
+  },
+  "slides": [
+    {
+      "slide_number": 2,
+      "caption_raw": "Segment A - Pelican Bluff Overlook",
+      "caption_clean": "Pelican Bluff Overlook"
+    },
+    {
+      "slide_number": 3,
+      "caption_raw": "Segment B - Quarry Tide Stairs",
+      "caption_clean": "Quarry Tide Stairs"
+    },
+    {
+      "slide_number": 4,
+      "caption_raw": "Segment A - Pelican Bluff Overlook",
+      "caption_clean": "Pelican Bluff Overlook"
+    },
+    {
+      "slide_number": 5,
+      "caption_raw": "Segment C - Cypress Footbridge",
+      "caption_clean": "Cypress Footbridge"
+    },
+    {
+      "slide_number": 6,
+      "caption_raw": "Segment D - Seal Rock Turnout",
+      "caption_clean": "Seal Rock Turnout"
+    }
+  ]
+}

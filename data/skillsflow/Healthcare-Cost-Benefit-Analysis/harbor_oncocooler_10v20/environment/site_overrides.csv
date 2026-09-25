@@ -1,0 +1,9 @@
+program_code,version_no,approval_state,active_sites
+ONC-ALFA,1,draft,13
+ONC-ALFA,2,approved,15
+ONC-BETA,1,approved,12
+ONC-DELTA,1,rejected,8
+ONC-DELTA,2,approved,9
+ONC-EPS,1,approved,8
+ONC-EPS,2,approved,10
+ONC-GAMMA,1,draft,12

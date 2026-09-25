@@ -1,0 +1,8 @@
+work_order_id,contractor_id,approved_amount,site_zone,status
+WO-8801,C301,4800.0,Z-NORTH,active
+WO-8802,C302,3650.5,Z-CENTRAL,active
+WO-8803,C303,2900.0,Z-EAST,active
+WO-8804,C304,5100.0,Z-WEST,active
+WO-8805,C305,4300.0,Z-SOUTH,active
+WO-8806,C301,2750.0,Z-NORTH,closed
+WO-8807,C304,6200.0,Z-WEST,active

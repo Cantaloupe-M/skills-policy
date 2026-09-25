@@ -1,0 +1,42 @@
+[
+  {
+    "request_page_number": 3,
+    "carrier_name": "Glacier Freight",
+    "requested_charge": 915.0,
+    "remit_account": "BAD-902",
+    "shipment_ref": "SH-7102",
+    "reason": "Account Mismatch"
+  },
+  {
+    "request_page_number": 4,
+    "carrier_name": "Arctic Haul",
+    "requested_charge": 700.0,
+    "remit_account": "AC-903",
+    "shipment_ref": "SH-7103",
+    "reason": "Amount Mismatch"
+  },
+  {
+    "request_page_number": 6,
+    "carrier_name": "Blue Freeze Logistics",
+    "requested_charge": 1200.0,
+    "remit_account": "AC-904",
+    "shipment_ref": "SH-7999",
+    "reason": "Invalid Shipment Ref"
+  },
+  {
+    "request_page_number": 7,
+    "carrier_name": "Northern Star Carriers",
+    "requested_charge": 915.0,
+    "remit_account": "AC-905",
+    "shipment_ref": "SH-7102",
+    "reason": "Carrier Mismatch"
+  },
+  {
+    "request_page_number": 8,
+    "carrier_name": "Cryo Express",
+    "requested_charge": 640.0,
+    "remit_account": "AC-999",
+    "shipment_ref": "SH-7105",
+    "reason": "Unknown Carrier"
+  }
+]

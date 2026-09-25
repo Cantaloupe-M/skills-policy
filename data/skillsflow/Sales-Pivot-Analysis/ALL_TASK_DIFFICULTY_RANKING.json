@@ -1,0 +1,10 @@
+[
+  "product-sales-pivot",
+  "student-performance-pivot",
+  "library-circulation-pivot",
+  "inventory-multi-warehouse-pivot",
+  "quality-control-pivot",
+  "employee-compensation-pivot",
+  "event-registration-pivot",
+  "budget-reconciliation-pivot"
+]

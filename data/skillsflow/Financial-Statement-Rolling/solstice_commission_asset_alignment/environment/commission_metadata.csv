@@ -1,0 +1,8 @@
+line_key,sheet_code,useful_life_months,narrative,account_number
+FC-100,field,12,Field team annual plan,1510
+FC-110,field,6,Midyear territory expansion,1510
+FC-120,field,8,Mobility reseller plan,1510
+PC-200,partner,12,Strategic partner incentive,1515
+PC-210,partner,4,Launch partner program,1515
+PC-220,partner,6,OEM expansion,1515
+UNUSED-1,partner,1,Ignore metadata only row,1515

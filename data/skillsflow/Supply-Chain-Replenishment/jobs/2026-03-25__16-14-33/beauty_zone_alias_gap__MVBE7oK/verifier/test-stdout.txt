@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/tests/test_outputs.py", line 227, in <module>
+    main()
+  File "/tests/test_outputs.py", line 219, in main
+    assert output_file.exists(), f'Missing output file: {output_file}'
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: Missing output file: /beauty_zone_alias_gap.xlsx

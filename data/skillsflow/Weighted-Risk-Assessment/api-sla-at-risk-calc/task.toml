@@ -1,0 +1,23 @@
+version = "1.0"
+
+[metadata]
+author_name = "CatPaw Task Engineer"
+author_email = "catpaw@meituan.com"
+difficulty = "medium"
+category = "spreadsheet-formula-reuse"
+tags = ["excel", "formulas", "lookup", "statistics", "weighted-mean"]
+
+[verifier]
+timeout_sec = 600.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+docker_image = "harbor-prebuilt:task-c1277797a7ad093c"

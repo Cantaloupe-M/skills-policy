@@ -1,0 +1,12 @@
+{
+  "holdouts": [
+    {
+      "panel_code": "DP-ZETA",
+      "holdout_state": "exclude"
+    },
+    {
+      "panel_code": "DP-ARCH",
+      "holdout_state": "clear"
+    }
+  ]
+}

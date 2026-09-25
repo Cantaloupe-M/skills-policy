@@ -1,0 +1,201 @@
+{
+  "segments": [
+    {
+      "bucket": "enterprise",
+      "snapshots": [
+        {
+          "case_id": "ER-100",
+          "version": 1,
+          "approved": true,
+          "row_kind": "detail",
+          "customer_name": "Apex Media",
+          "opening_amount": 0,
+          "flow_months": {
+            "aug": {
+              "accrued": 5500,
+              "credited": 1400
+            },
+            "sep": {
+              "credited": 1400
+            },
+            "oct": {
+              "accrued": 1500,
+              "credited": 1500
+            },
+            "nov": {
+              "credited": 1500
+            }
+          },
+          "term_hint": 6,
+          "memo_text": "Superseded version",
+          "account_code": 2215
+        },
+        {
+          "case_id": "ER-100",
+          "version": 2,
+          "approved": true,
+          "row_kind": "detail",
+          "customer_name": "Apex Media",
+          "opening_amount": 0,
+          "flow_months": {
+            "aug": {
+              "accrued": 6000,
+              "credited": 1500
+            },
+            "sep": {
+              "credited": 1500
+            },
+            "oct": {
+              "accrued": 2000,
+              "credited": 1750
+            },
+            "nov": {
+              "credited": 1750
+            }
+          },
+          "term_hint": 6,
+          "memo_text": "Annual refund reserve",
+          "account_code": 2215
+        },
+        {
+          "case_id": "ER-110",
+          "version": 1,
+          "approved": true,
+          "row_kind": "detail",
+          "customer_name": "Beacon Works",
+          "opening_amount": 0,
+          "flow_months": {
+            "sep": {
+              "accrued": 10000,
+              "credited": 2500
+            },
+            "oct": {
+              "credited": 2500
+            },
+            "nov": {
+              "credited": 2500
+            }
+          },
+          "term_hint": 4,
+          "memo_text": "Large-enterprise credits",
+          "account_code": 2215
+        },
+        {
+          "case_id": "ER-120",
+          "version": 1,
+          "approved": true,
+          "row_kind": "detail",
+          "customer_name": "Crest Health",
+          "opening_amount": 0,
+          "flow_months": {
+            "aug": {
+              "accrued": 4000,
+              "credited": 1000
+            },
+            "sep": {
+              "credited": 1000
+            },
+            "oct": {
+              "credited": 1000
+            },
+            "nov": {
+              "credited": 1000
+            }
+          },
+          "term_hint": 6,
+          "memo_text": "Transition reserve draft",
+          "account_code": 2215
+        },
+        {
+          "case_id": "ER-999",
+          "version": 1,
+          "approved": false,
+          "row_kind": "detail",
+          "customer_name": "Ignore Not Approved",
+          "opening_amount": 0,
+          "flow_months": {
+            "aug": {
+              "accrued": 1,
+              "credited": 1
+            }
+          },
+          "term_hint": 1,
+          "memo_text": "Ignore row",
+          "account_code": 2215
+        }
+      ]
+    },
+    {
+      "bucket": "smb",
+      "snapshots": [
+        {
+          "case_id": "SR-200",
+          "version": 1,
+          "approved": true,
+          "row_kind": "detail",
+          "customer_name": "Delta Shops",
+          "opening_amount": 0,
+          "flow_months": {
+            "aug": {
+              "accrued": 3000,
+              "credited": 500
+            },
+            "sep": {
+              "credited": 500
+            },
+            "oct": {
+              "accrued": 1000,
+              "credited": 750
+            },
+            "nov": {
+              "credited": 750
+            }
+          },
+          "term_hint": 6,
+          "memo_text": "Storefront concessions",
+          "account_code": 2218
+        },
+        {
+          "case_id": "SR-210",
+          "version": 1,
+          "approved": true,
+          "row_kind": "detail",
+          "customer_name": "Ember Apps",
+          "opening_amount": 0,
+          "flow_months": {
+            "sep": {
+              "accrued": 5000,
+              "credited": 1250
+            },
+            "oct": {
+              "credited": 1250
+            },
+            "nov": {
+              "credited": 1250
+            }
+          },
+          "term_hint": 4,
+          "memo_text": "SMB launch credits",
+          "account_code": 2218
+        },
+        {
+          "case_id": "SR-998",
+          "version": 1,
+          "approved": true,
+          "row_kind": "summary",
+          "customer_name": "Ignore Summary",
+          "opening_amount": 0,
+          "flow_months": {
+            "aug": {
+              "accrued": 5,
+              "credited": 5
+            }
+          },
+          "term_hint": 1,
+          "memo_text": "Ignore summary row",
+          "account_code": 2218
+        }
+      ]
+    }
+  ]
+}

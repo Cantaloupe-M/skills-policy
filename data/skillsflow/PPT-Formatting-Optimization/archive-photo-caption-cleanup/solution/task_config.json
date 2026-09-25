@@ -1,0 +1,66 @@
+{
+  "input_file": "Archive-Photo-Review.pptx",
+  "output_file": "Archive-Photo-Review_cleaned.pptx",
+  "summary_mode": "append",
+  "summary_title": "Archive Sheet",
+  "summary_slide_number": 7,
+  "output_slide_count": 7,
+  "style": {
+    "font": "Calibri",
+    "size": 1500,
+    "color": "6C665C",
+    "bold": false,
+    "italic": false
+  },
+  "slides": [
+    {
+      "slide_number": 2,
+      "caption_raw": "Cabinet Card - River Market Crowd",
+      "caption_clean": "River Market Crowd (Cabinet Card)",
+      "preserve_texts": [
+        "Shelf note: Sleeve rehousing queued"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "caption_raw": "Glass Plate - Harbor Ice Wagons",
+      "caption_clean": "Harbor Ice Wagons (Glass Plate)",
+      "preserve_texts": [
+        "Shelf note: Glass crack capture complete"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "caption_raw": "River Market Crowd (Cabinet Card)",
+      "caption_clean": "River Market Crowd (Cabinet Card)",
+      "preserve_texts": [
+        "Shelf note: Duplicate print routed to oversize box"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "caption_raw": "Lantern Slide - Foundry Night Shift",
+      "caption_clean": "Foundry Night Shift (Lantern Slide)",
+      "preserve_texts": [
+        "Shelf note: Soot cleanup sample retained"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "caption_raw": "Albumen Print - Signal Tower Repairs",
+      "caption_clean": "Signal Tower Repairs (Albumen Print)",
+      "preserve_texts": [
+        "Shelf note: Edge tears flagged for mending"
+      ]
+    }
+  ],
+  "alias_map_file": "archive_caption_registry.csv",
+  "alias_fields": {
+    "raw": "observed_label",
+    "canonical": "preferred_label",
+    "status": "record_state"
+  },
+  "alias_ignore_status_values": [
+    "draft"
+  ]
+}

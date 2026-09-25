@@ -1,0 +1,10 @@
+[
+  "fx-spot-matrix-refresh",
+  "fx-cross-rate-inverse-fix",
+  "warehouse-slot-factor-refresh",
+  "supplier-pack-matrix-refresh",
+  "catalyst-balance-matrix-sync",
+  "buffer-dilution-matrix-repair",
+  "rebate-band-live-embedding-fix",
+  "emission-zone-dual-matrix-repair"
+]

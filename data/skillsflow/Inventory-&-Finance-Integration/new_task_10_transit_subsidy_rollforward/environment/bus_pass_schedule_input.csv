@@ -1,0 +1,7 @@
+vendor,beginning_balance,jan_adds,jan_amortization,jan_ending_balance,feb_adds,feb_amortization,feb_ending_balance,mar_adds,mar_amortization,mar_ending_balance,apr_adds,apr_amortization,apr_ending_balance,amortization_months,comments,account_number
+North Loop Bus Coop,676.2,13898.38,2429.1,12145.48,3233.75,2563.21,12816.02,13228.25,4340.71,21703.56,10420.9,5354.08,26770.38,6,Rollforward batch 1,4310
+Harbor Rapid Bus,1654.52,10408.15,1005.22,11057.45,8075.88,1594.44,17538.89,16379.44,2826.53,31091.8,11721.72,3567.79,39245.73,12,Rollforward batch 2,4310
+Uptown Connector Bus,748.06,6948.8,1282.81,6414.05,0.0,1069.01,5345.04,13786.62,3188.61,15943.05,7942.54,3980.93,19904.66,6,Rollforward batch 3,4310
+Westside Express Bus,1053.76,5986.13,586.66,6453.23,0.0,537.77,5915.46,20242.65,2179.84,23978.27,7451.36,2619.14,28810.49,12,Rollforward batch 4,4310
+Riverline Bus Services,5241.63,15735.72,3496.23,17481.12,1603.21,3180.72,15903.61,13144.17,4841.3,24206.48,19759.53,7327.67,36638.34,6,Rollforward batch 5,4310
+CityHub Commuter Bus,5694.2,23741.16,2452.95,26982.41,7442.85,2868.77,31556.49,3456.99,2917.79,32095.69,2229.29,2860.42,31464.56,12,Rollforward batch 6,4310

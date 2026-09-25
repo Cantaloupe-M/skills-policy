@@ -1,0 +1,47 @@
+{
+  "input_file": "Property-Portfolio.pptx",
+  "output_file": "Property-Portfolio_cleaned.pptx",
+  "summary_mode": "replace_existing",
+  "summary_title": "Portfolio Index",
+  "summary_slide_number": 7,
+  "output_slide_count": 7,
+  "style": {
+    "font": "Arial",
+    "size": 1600,
+    "color": "7A6F65",
+    "bold": false,
+    "italic": false
+  },
+  "slides": [
+    {
+      "slide_number": 2,
+      "caption_raw": "Harbor Point Logistics Center",
+      "caption_clean": "Harbor Point Logistics Center",
+      "note": "Lease-up note: Dock door striping pending"
+    },
+    {
+      "slide_number": 3,
+      "caption_raw": "Maple Terrace Apartments",
+      "caption_clean": "Maple Terrace Apartments",
+      "note": "Leasing note: Model unit refresh scheduled"
+    },
+    {
+      "slide_number": 4,
+      "caption_raw": "Harbor Point Logistics Center",
+      "caption_clean": "Harbor Point Logistics Center",
+      "note": "Capital note: Tenant signage under review"
+    },
+    {
+      "slide_number": 5,
+      "caption_raw": "Riverside Medical Office",
+      "caption_clean": "Riverside Medical Office",
+      "note": "Budget note: HVAC reserve updated"
+    },
+    {
+      "slide_number": 6,
+      "caption_raw": "Cedar Grove Self Storage",
+      "caption_clean": "Cedar Grove Self Storage",
+      "note": "Risk note: Gate motor replacement quoted"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "input_file": "Museum-Exhibit-Board.pptx",
+  "output_file": "Museum-Exhibit-Board_cleaned.pptx",
+  "summary_mode": "append",
+  "summary_title": "Exhibit Index",
+  "summary_slide_number": 7,
+  "output_slide_count": 7,
+  "style": {
+    "font": "Arial",
+    "size": 1500,
+    "color": "6F6C64",
+    "bold": false,
+    "italic": false
+  },
+  "slides": [
+    {
+      "slide_number": 2,
+      "caption_raw": "Bronze Ritual Vessel from Late Shang",
+      "caption_clean": "Bronze Ritual Vessel from Late Shang"
+    },
+    {
+      "slide_number": 3,
+      "caption_raw": "Gilt Reliquary with Lotus Pedestal",
+      "caption_clean": "Gilt Reliquary with Lotus Pedestal"
+    },
+    {
+      "slide_number": 4,
+      "caption_raw": "Bronze Ritual Vessel from Late Shang",
+      "caption_clean": "Bronze Ritual Vessel from Late Shang"
+    },
+    {
+      "slide_number": 5,
+      "caption_raw": "Painted Funeral Banner of Lady Dai",
+      "caption_clean": "Painted Funeral Banner of Lady Dai"
+    },
+    {
+      "slide_number": 6,
+      "caption_raw": "Celadon Ewer with Phoenix Spout",
+      "caption_clean": "Celadon Ewer with Phoenix Spout"
+    }
+  ]
+}

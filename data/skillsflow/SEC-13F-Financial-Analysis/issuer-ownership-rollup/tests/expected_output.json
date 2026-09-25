@@ -1,0 +1,19 @@
+{
+  "issuer_query": "palantir",
+  "quarter": "2025-q3",
+  "cusip": "69608A108",
+  "top5_managers": [
+    "VANGUARD GROUP INC",
+    "BlackRock, Inc.",
+    "STATE STREET CORP",
+    "SUSQUEHANNA INTERNATIONAL GROUP, LLP",
+    "GEODE CAPITAL MANAGEMENT, LLC"
+  ],
+  "top5_accessions": [
+    "0000102909-25-000353",
+    "0002012383-25-002949",
+    "0000093751-25-000651",
+    "0001446194-25-000027",
+    "0001214717-25-000016"
+  ]
+}

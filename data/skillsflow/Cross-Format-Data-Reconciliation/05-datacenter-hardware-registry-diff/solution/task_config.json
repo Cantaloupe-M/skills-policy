@@ -1,0 +1,12 @@
+{
+  "pdf_file": "/root/hardware_registry_q1.pdf",
+  "excel_file": "/root/hardware_registry_q2.xlsx",
+  "output_file": "/root/hardware_diff_report.json",
+  "deleted_key": "decommissioned_servers",
+  "modified_key": "updated_servers",
+  "id_pattern": "^SVR\\d{4}$",
+  "int_columns": [
+    "CPUCores"
+  ],
+  "float_columns": []
+}

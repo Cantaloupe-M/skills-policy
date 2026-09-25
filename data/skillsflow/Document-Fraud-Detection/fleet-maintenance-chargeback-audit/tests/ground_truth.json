@@ -1,0 +1,42 @@
+[
+  {
+    "packet_page_number": 2,
+    "provider_name": "Delta Workshop",
+    "chargeback_total": 2400.0,
+    "payment_account": "WRONG-802",
+    "order_id": "MO-9002",
+    "reason": "Account Mismatch"
+  },
+  {
+    "packet_page_number": 3,
+    "provider_name": "Metro Diesel Labs",
+    "chargeback_total": 1200.0,
+    "payment_account": "ACC-803",
+    "order_id": "MO-9003",
+    "reason": "Amount Mismatch"
+  },
+  {
+    "packet_page_number": 4,
+    "provider_name": "Beacon Tire Co",
+    "chargeback_total": 980.0,
+    "payment_account": "ACC-804",
+    "order_id": "MO-9999",
+    "reason": "Invalid Order ID"
+  },
+  {
+    "packet_page_number": 5,
+    "provider_name": "Sterling Axle Works",
+    "chargeback_total": 2050.0,
+    "payment_account": "ACC-888",
+    "order_id": "MO-9005",
+    "reason": "Unknown Provider"
+  },
+  {
+    "packet_page_number": 6,
+    "provider_name": "North Harbor Mechanics",
+    "chargeback_total": 2400.0,
+    "payment_account": "ACC-805",
+    "order_id": "MO-9002",
+    "reason": "Provider Mismatch"
+  }
+]

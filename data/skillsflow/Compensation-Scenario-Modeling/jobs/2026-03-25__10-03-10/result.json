@@ -1,0 +1,36 @@
+{
+    "id": "41d765db-2001-409e-8212-e5972e787621",
+    "started_at": "2026-03-25T10:03:10.578407",
+    "finished_at": "2026-03-25T10:03:49.963415",
+    "n_total_trials": 8,
+    "stats": {
+        "n_trials": 8,
+        "n_errors": 0,
+        "evals": {
+            "oracle__harbor_gdpval_33": {
+                "n_trials": 8,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "07_airline_crew_model__oVFLJXN",
+                            "08_construction_union_model__KuZSK6q",
+                            "01_orchestra_foundation_model__mMC4mkU",
+                            "06_property_portfolio_refresh_mo__MNPjMoV",
+                            "02_orchestra_archive_refresh_mod__fudcDmJ",
+                            "05_property_management_model__4ympDZU",
+                            "03_university_faculty_model__mhHWf8v",
+                            "04_university_termload_refresh_m__jMXvBDt"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

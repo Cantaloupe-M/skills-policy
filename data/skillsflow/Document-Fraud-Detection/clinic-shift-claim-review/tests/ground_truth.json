@@ -1,0 +1,42 @@
+[
+  {
+    "claim_page_number": 2,
+    "clinician_name": "Victor Han",
+    "requested_pay": 520.0,
+    "payout_account": "BAD-702",
+    "shift_ref": "SHIFT-B2",
+    "reason": "Account Mismatch"
+  },
+  {
+    "claim_page_number": 3,
+    "clinician_name": "Maya Ptel",
+    "requested_pay": 610.0,
+    "payout_account": "PAY-703",
+    "shift_ref": "SHIFT-C3",
+    "reason": "Amount Mismatch"
+  },
+  {
+    "claim_page_number": 4,
+    "clinician_name": "Carla Nunez",
+    "requested_pay": 390.0,
+    "payout_account": "PAY-999",
+    "shift_ref": "SHIFT-D4",
+    "reason": "Unknown Clinician"
+  },
+  {
+    "claim_page_number": 5,
+    "clinician_name": "Omar Diaz",
+    "requested_pay": 390.0,
+    "payout_account": "PAY-704",
+    "shift_ref": "SHIFT-Z9",
+    "reason": "Invalid Shift Code"
+  },
+  {
+    "claim_page_number": 6,
+    "clinician_name": "Lena Frost",
+    "requested_pay": 520.0,
+    "payout_account": "PAY-705",
+    "shift_ref": "SHIFT-B2",
+    "reason": "Clinician Mismatch"
+  }
+]

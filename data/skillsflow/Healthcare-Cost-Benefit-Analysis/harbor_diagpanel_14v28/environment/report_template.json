@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "request_id": "DP-2026-09",
+    "requested_by": "Regional Diagnostics Network"
+  },
+  "audit_notes": [
+    "retain metadata exactly",
+    "retain audit_notes exactly"
+  ],
+  "analysis": {
+    "assumptions": {},
+    "panels": [],
+    "totals": {},
+    "recommendation": {}
+  }
+}

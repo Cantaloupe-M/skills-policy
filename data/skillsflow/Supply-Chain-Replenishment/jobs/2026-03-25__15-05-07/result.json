@@ -1,0 +1,36 @@
+{
+    "id": "ed1b80da-173d-4dc3-94b4-3fb2ce695f86",
+    "started_at": "2026-03-25T15:05:07.399656",
+    "finished_at": "2026-03-25T15:05:38.899226",
+    "n_total_trials": 5,
+    "stats": {
+        "n_trials": 5,
+        "n_errors": 4,
+        "evals": {
+            "oracle__harbor_gdpval_21": {
+                "n_trials": 1,
+                "n_errors": 4,
+                "metrics": [
+                    {
+                        "mean": 0.2
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "harbor_gdpval_21__C4ot9ab"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "RuntimeError": [
+                        "snack_dc_august_load_plan__99NaeCN",
+                        "clinic_branch_transfer_gap__HPjE5RL",
+                        "frozen_meal_tracker_refresh__FysRenC",
+                        "petcare_midmonth_pallet_gap__6zoiAKW"
+                    ]
+                }
+            }
+        }
+    }
+}
